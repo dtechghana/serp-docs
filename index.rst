@@ -32,7 +32,7 @@ Getting Started
    * :ref:`users_change_password`
    * :doc:`/setup/users` -- Manage users and access roles
    * :ref:`finance_fees` -- Configure Fees
-   * :doc:`/getting-started/troubleshooting/index`
+   * :doc:`/getting-started/troubleshooting`
    * :doc:`/faqs/index` -- Frequently asked questions
 
 
@@ -45,7 +45,7 @@ Full Content
    :maxdepth: 2
    
    /getting-started/index
-   /getting-started/troubleshooting/index
+   /getting-started/troubleshooting
    /setup/index
    /setup/users
    /manage/index
