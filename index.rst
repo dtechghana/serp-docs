@@ -30,17 +30,16 @@ Getting Started
 
    * :ref:`setup_initial` -- Configure sERP for first time use
    * :ref:`users_change_password`
-   * :doc:`/getting-started/troubleshooting`
-   * :doc:`/manage/index` -- Modules & Features
    * :doc:`/setup/users` -- Users and access roles   
-   * :ref:`finance_fees` -- Configure fees
+   * :doc:`/manage/index` -- Modules & Features
+   * :doc:`/getting-started/troubleshooting`
    * :doc:`/faqs/index` -- Frequently asked questions
 
 
 
 
-Full Content
-============
+Documentation Reference
+=======================
 
 .. toctree::
    :maxdepth: 2
