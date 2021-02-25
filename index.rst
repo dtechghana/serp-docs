@@ -30,7 +30,7 @@ Getting Started
 
    * :ref:`setup_initial` -- Configure sERP for first time use
    * :ref:`users_change_password`
-   * :doc:`/setup/users` -- Users and access roles   
+   * :doc:`/setup/users` -- Users and access roles
    * :doc:`/manage/index` -- Modules & Features
    * :doc:`/getting-started/troubleshooting`
    * :doc:`/faqs/index` -- Frequently asked questions
