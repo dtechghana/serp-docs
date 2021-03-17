@@ -31,7 +31,7 @@ Change default password
 
 Your sERP welcome email contains an admin password required to log in to sERP. You should ideally change this password.
 
-.. hint::
+.. tip::
 
 	Check out our :ref:`users_change_password` guide for more information.
 
@@ -56,7 +56,7 @@ Configure School Details
 
 Enter basic information about your school. This information is generally used across different sections and modules in the sERP ecosystem.
 
-.. hint::
+.. tip::
 
 	Check out our :ref:`settings_general` configuration guide for more information.
 
@@ -120,6 +120,7 @@ Add Campuses/Locations
 
 	.. tip::
 		You can add multiple campuses at a go by clicking on the (**+**) icon
+
 3. Click on "Add Campus/es"
 
 
@@ -136,6 +137,7 @@ Add Divisions
 
 	.. tip::
 		You can add multiple divisions at a go by clicking on the (**+**) icon
+
 3. Click on "Add Division/s"
 
 
@@ -149,7 +151,7 @@ Configure Default Academic Calendar
 
 The default academic calendar setting informs sERP about the current academic term/year. The default academic calendar needs to be configured for both the "Trimester" and "Semester" categories.
 
-.. hint::
+.. tip::
 
 	Check out our :ref:`settings_calendar` configuration guide for more information.
 
@@ -190,7 +192,7 @@ Add Staff Departments
 1. From the :ref:`main navigation menu <setup_layout>`, go to HR -> Departments
 2. From the "Add Department" pane, enter the name of the department in the box next to "Department Name"
 
-	.. hint::
+	.. tip::
 		You can add multiple departments at a go by clicking on the (+) icon
 
 3. Click "Add Department/s"
@@ -217,17 +219,39 @@ Staff types or designation represent the posts/position of staff in your school,
 
 .. _setup_fee_types:
 
-Add Fee Types
+Add Fee Items
 =============
 
-Fee types represent billable items that appear on student bills. This is required when :ref:`configuring fees <finance_set_fees>`, and also when :ref:`preparing student bills <finance_prepare_bill>`.
+Fee items represent billable items that appear on student bills. This is required when :ref:`configuring fees <finance_set_fees>`, and also when :ref:`preparing student bills <finance_prepare_bill>`.
 
 1. From the :ref:`welcome menu <setup_layout>`, click on "Settings"
 2. Next, click on "Finance Settings"
-3. From the Finance Settings page, click the wrench (|wrench_icon|) icon next to "Fees Types Added"
-4. From the "Add Fees Type" pane, enter the name of the billable item in the box next to "Fee Type"
+3. From the Finance Settings page, click the wrench (|wrench_icon|) icon next to "Fees Items"
+4. From the "Add Fee Items" pane, enter the name of the billable item in the box next to "Fee Item"
 
-	.. hint::
-		You can add multiple fee types at a go by clicking on the (+) icon
+	.. tip::
+		You can add multiple fee items at a go by clicking on the (+) icon
 
 5. Click "Add"
+
+
+.
+
+
+.. _setup_sms:
+
+Configure SMS
+=============
+
+sERP provides several related features that allow you send SMS messages based on different conditions and criteria. The SMS module utilizes Darrel Technologies' `SMS Gateway`_ for sending SMS, and in order to be able to use these features, you'd need to configure sERP to connect to the gateway.
+
+.. _SMS Gateway : https://dtechghana.com/sms-messaging/
+
+.. tip::
+	Check out our :ref:`SMS Settings <settings_sms>` section for more information
+
+
+.
+
+
+.

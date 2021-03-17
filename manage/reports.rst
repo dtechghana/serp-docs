@@ -1,4 +1,9 @@
 Reports Module
-==============
+##############
 
-T
+
+.. _reports_attendance:
+
+Attendance
+**********
+
