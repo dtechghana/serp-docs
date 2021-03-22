@@ -1,7 +1,7 @@
 Students Module
 ###############
 
-Student information management is a large part of what the sERP software does, and thus this section of the guide provides information related to managing the various aspects of sERP related to student bio data and attendance.
+Student information management is a large part of what the sERP software does, and thus this section of the guide provides information on managing the various aspects of sERP related to student bio data and attendance.
 
 The Students module can be accessed from the :ref:`main navigation menu <setup_layout>`, and contains the following sub modules:
 
