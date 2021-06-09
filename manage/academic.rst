@@ -53,16 +53,18 @@ Modifying Class Data
 2. Modify the following:
 
 	.. note::
-		* **Academic Calendar**: select the academic calendar category for the class
 		* **Class Name**: enter the name of the class as you'd like it to appear
+		* **Class Code**: enter a code for this class (*This is required for* :ref:`student ID generation <setup_student_prefix>`). Changes have no effect on existing student ID
+		* **Academic Calendar**: select the academic calendar category for the class
 		* **Campus**: select the campus/location where this class belongs
 		* **Group**: select the class group to add this class to
+		* **SBA Configuration**: specify the :ref:`SBA configuration <settings_sba>` to be used for this class
+		* **SBA Assign. Staff**: select a list of staff/teachers who can record marks for student assessment in this class
+		* **Attendance Assign. Staff**: select a list of staff/teachers who can record attendance for this class
+		* **Canteen Payment Assign. Staff**: select a list of staff/teachers who can record attendance payments for this class
 		* **Division**: select the division this class belongs
 		* **Class Teacher**: select and assign a class teacher for this class. *(This requires a user account to have been created, and assigned to a staff in sERP)*
 		* **Class Prefect**: select and assign class prefect for this class from roster
-		* **Class Code**: enter a code for this class (*This is required for* :ref:`student ID generation <setup_student_prefix>`). Changes have no effect on existing student ID
-		* **SBA Configuration**: specify the :ref:`SBA configuration <settings_sba>` to be used for this class
-		* **SBA Assign. Staff**: select a list of staff/teachers who can record marks for student assessment in this class
 
 
 3. Click "Save"
