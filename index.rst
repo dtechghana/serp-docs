@@ -43,12 +43,13 @@ Documentation Reference
 
 .. toctree::
    :maxdepth: 2
-   
+
    /getting-started/index
    /settings/index
    /getting-started/troubleshooting
    /setup/users
    /faqs/index
+   /ussd/index
    /manage/index
    /manage/academic
    /manage/canteen
