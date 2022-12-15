@@ -407,6 +407,9 @@ From the "Promote Students" pane:
 
 4. Click "Save"
 
+.. warning::
+	You must only promote students to a new class after SBA marks have been entered and reports validated for the current academic period. 
+
 
 .. _student_prefects:
 
