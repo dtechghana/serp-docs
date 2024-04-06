@@ -122,18 +122,21 @@ Students -> New Registration.
 
 1. Complete the following sections:
 
+		.. hint::
+			Fields marked * are required
+
 
 Personal Details
 ================
 
 Captures general student information and bio data including:
 
-	* Surname
-	* First name
+	* Surname (*)
+	* First name (*)
 	* Other names
-	* Date of Birth
+	* Date of Birth *
 	* Place of birth
-	* Gender
+	* Gender *
 	* Nationality
 	* Religion
 
@@ -142,13 +145,13 @@ Academic Details
 
 Captures information pertaining to the student's relationship with the school, as well as other 'academic-specific' information, including:
 
-	* Student ID
+	* Student ID *
 
 		.. hint::
-			sERP provides the option to automatically generate student ID based on configured ID criteria. Altarnatively, you may manually enter the student ID
+			sERP provides the option to automatically generate student ID based on configured ID criteria. Alternatively, you may manually enter the student ID
 
-	* Date of registration
-	* :ref:`Class <academic_classes>`
+	* Date of registration *
+	* :ref:`Class <academic_classes>` *
 	* :ref:`Section <student_section>`
 	* Status
 	* :ref:`Scholarship <student_scholarships>`
