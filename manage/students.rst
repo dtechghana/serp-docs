@@ -131,8 +131,8 @@ Personal Details
 
 Captures general student information and bio data including:
 
-	* Surname (*)
-	* First name (*)
+	* Surname *
+	* First name *
 	* Other names
 	* Date of Birth *
 	* Place of birth
