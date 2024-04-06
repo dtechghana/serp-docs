@@ -117,7 +117,8 @@ Deleting a student
 Student Registration
 ********************
 
-This section provides an interface for adding student information into the sERP system. The student registration section can be accessed from the :ref:`main nagivation menu <setup_layout>` by going to Students -> New Registration.
+This section provides an interface for adding student information into the sERP system. The student registration section can be accessed from the :ref:`main nagivation menu <setup_layout>` by going to 
+Students -> New Registration.
 
 1. Complete the following sections:
 
