@@ -288,6 +288,10 @@ intersphinx_mapping = {'http://docs.python.org/': None}
 author = 'Darrel Technologies Ltd'
 
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+html_context = {
+  "Type": dict[str, Any],
+  "Default": {} 
+}
 
 if os.environ.get("READTHEDOCS", "") == "True":
   html_context["READTHEDOCS"] = True
