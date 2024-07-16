@@ -289,7 +289,7 @@ author = 'Darrel Technologies Ltd'
 
 html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
 html_context = {
-  "Type": dict[str, Any],
+  "Type": dict[str],
   "Default": {} 
 }
 
