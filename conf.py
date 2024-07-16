@@ -12,6 +12,9 @@
 
 # Add any Sphinx extension module names here, as strings. They can be extensions
 # coming with Sphinx (named 'sphinx.ext.*') or your custom ones.
+
+import os
+
 extensions = []
 todo_include_todos=True
 
@@ -283,3 +286,8 @@ intersphinx_mapping = {'http://docs.python.org/': None}
 
 # Jasmin vars
 author = 'Darrel Technologies Ltd'
+
+html_baseurl = os.environ.get("READTHEDOCS_CANONICAL_URL", "")
+
+if os.environ.get("READTHEDOCS", "") == "True":
+  html_context["READTHEDOCS"] = True
