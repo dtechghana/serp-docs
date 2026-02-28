@@ -387,10 +387,10 @@ Recording Expenditure
 
 .. _finance_online_payments:
 
-Online Payments (Emergent Payments)
-************************************
+Online Payments 
+***************
 
-In addition to USSD mobile money payments, sERP supports online card payments through the **Emergent Payments** gateway. This allows parents and students to pay school fees using debit/credit cards, Apple Pay, Google Pay, and other card-based methods.
+In addition to USSD mobile money payments, sERP supports online card payments. This allows parents and students to pay school fees using debit/credit cards.
 
 Initiating an Online Payment (Admin)
 ======================================
@@ -398,10 +398,10 @@ Initiating an Online Payment (Admin)
 1. Navigate to **Finance > Online Payments**
 2. Search for and select the student
 3. Enter the payment amount
-4. Select the payment method (card, Apple Pay, etc.)
+4. Select the payment method
 5. Click **Initiate Payment**
 
-A unique payment reference is generated and the payment request is sent to the Emergent Payments gateway. The status updates automatically once the gateway confirms the transaction.
+A unique payment reference is generated and the payment request is sent to the payment gateway. The status updates automatically once the gateway confirms the transaction.
 
 Initiating an Online Payment (Parent/Student Portal)
 ======================================================
@@ -411,13 +411,13 @@ Parents and students can initiate online payments directly from their portal:
 1. Navigate to **Finance > Fees & Payments** (or **Bills** from the portal menu)
 2. Click the **Pay Online** button
 3. Complete the payment form with the amount and payment method
-4. Submit — the portal redirects to the Emergent Payments hosted payment page
+4. Submit — the portal redirects to the hosted payment page
 
 Successful payments are automatically applied to the student's fee account and a payment record is created.
 
 .. note::
 
-	The USSD payment platform (``***789*87#``) handles mobile money payments (MTN MoMo, Vodafone Cash, AirtelTigo Money). The Emergent Payments online integration extends this to card-based and digital wallet payments.
+	The USSD payment platform (``***789*87#``) handles mobile money payments (MTN MoMo, Telecel Cash, AirtelTigo Money). The online integration extends this to card-based and digital wallet payments.
 
 
 Automated Fee Reminders
@@ -430,9 +430,7 @@ To enable automated reminders:
 1. Navigate to **Settings > Finance Settings**
 2. Toggle **Automated Fee Reminders** to ON
 
-When enabled, the reminder script runs on a configured schedule (typically Monday mornings) and sends SMS to all parents with a balance due, using the existing SMS integration. The cron command is::
-
-	0 8 * * 1 php /path/to/serp/cron/fee_reminders.php
+When enabled, the reminder script runs on a configured schedule (typically Monday mornings) and sends SMS to all parents with a balance due, using the existing SMS integration.
 
 .. note::
 
