@@ -417,7 +417,7 @@ Successful payments are automatically applied to the student's fee account and a
 
 .. note::
 
-	The USSD payment platform (``***789*87#``) handles mobile money payments (MTN MoMo, Telecel Cash, AirtelTigo Money). The online integration extends this to card-based and digital wallet payments.
+	The USSD payment platform (``*789*87#``) handles mobile money payments (MTN MoMo, Telecel Cash, AirtelTigo Money). The online integration extends this to card-based and digital wallet payments.
 
 
 Automated Fee Reminders
