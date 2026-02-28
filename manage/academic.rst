@@ -507,7 +507,118 @@ Deleting a Correspondence
 	Deleting data is an irreversible process
 
 
-.
+.. _academic_assignments:
+
+Assignments
+***********
+
+The Assignments module allows staff to create, distribute, and grade assignments for classes. Navigate to **Academic > Assignments** to view all assignments for the current academic term.
+
+Adding an Assignment
+====================
+
+1. Click **Add Assignment** to open the assignment form
+2. Fill in the following:
+
+	.. note::
+
+		* **Class**: the class this assignment is for
+		* **Subject**: the subject the assignment belongs to
+		* **Title**: a concise title for the assignment
+		* **Description**: a brief overview of what the assignment covers
+		* **Instructions**: step-by-step instructions for students
+		* **Due Date**: the deadline for submissions
+
+3. Click **Add Assignment** to save and publish
+
+Viewing Submissions & Grading
+==============================
+
+1. From the assignments list, click **Details** for an assignment
+2. The submissions table shows each student in the class with their submission status, submitted content, and any attached files
+3. Click **Grade** for a submission to assign a grade (e.g. A, B+, 85%) and written remarks
+4. Click **Save Grade**
+
+.. note::
+
+	Students can view their assignments and submit work via the student portal. Grades and remarks are visible to students after grading.
+
+
+.. _academic_exam_schedule:
+
+Exam Schedule
+*************
+
+Navigate to **Academic > Exam Schedule** to manage the school's exam timetable for the current term.
+
+Adding an Exam Entry
+====================
+
+1. Click **Add Exam** to open the scheduling form
+2. Select the **Class**, **Subject**, **Exam Date**, **Start Time**, **End Time**, and **Venue**
+3. Click **Add Exam** to save
+
+The schedule is filtered by the current academic year and term. Students and parents can view the published exam schedule from their respective portals.
+
+.. tip::
+
+	Use the class and subject filters to quickly locate specific exam entries in a large schedule.
+
+
+.. _academic_curriculum:
+
+Curriculum
+**********
+
+Navigate to **Academic > Curriculum** to manage the term-by-term curriculum plan for each class and subject.
+
+Adding a Curriculum Entry
+==========================
+
+1. Select the **Class** and **Subject** from the filter dropdowns
+2. Click **Add Entry**
+3. Fill in:
+
+	* **Week Number**: the week of term this topic is planned for
+	* **Topic**: the topic or unit to be covered
+	* **Objectives**: the learning outcomes for this topic
+	* **Resources**: materials, textbooks, or references required
+
+4. Click **Save**
+
+Curriculum entries give teachers and administrators a structured view of the planned syllabus for the term, and can be used as a reference against what has actually been taught.
+
+
+.. _academic_lesson_plans:
+
+Lesson Plans
+*************
+
+Navigate to **Academic > Lesson Plans** to create and manage lesson plans.
+
+Adding a Lesson Plan
+====================
+
+1. Click **Add Lesson Plan**
+2. Fill in the following:
+
+	.. note::
+
+		* **Class**: the class the lesson is for
+		* **Subject**: the subject the lesson covers
+		* **Title**: the lesson title
+		* **Objectives**: what students should learn by the end of the lesson
+		* **Activities**: classroom activities and exercises
+		* **Resources**: materials, equipment, or references required
+		* **Lesson Date**: the date the lesson is scheduled
+		* **File Attachment**: optionally attach a supporting document (e.g. worksheet, slides)
+		* **Share with Students**: toggle ON to make this plan visible to students in the student portal
+
+3. Click **Save Lesson Plan**
+
+.. tip::
+
+	Lesson plans can also be created and managed from the Teacher Portal, which provides teachers with a dedicated interface without requiring access to the full admin panel.
 
 
 .

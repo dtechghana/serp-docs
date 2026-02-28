@@ -480,7 +480,62 @@ Deleting a scholarship
 	Deleting data is an irreversible process
 
 
-.
+.. _students_health_records:
+
+Health Records
+**************
+
+Students can have a structured health record attached to their profile, accessible from the student details page under the **Health Records** tab.
+
+Health record fields include:
+
+* **Blood Type**: the student's blood group (e.g. O+, AB-)
+* **Allergies**: known allergic reactions
+* **Medical Conditions**: chronic or significant medical conditions
+* **Vaccination History**: a record of vaccinations received
+* **Emergency Contact Name**: name of a medical emergency contact
+* **Emergency Contact Phone**: phone number for the emergency contact
+* **Notes**: any additional health-related notes
+
+Click **Edit Health Record** (or **Add Health Record** if none exists yet) from the Health Records tab to open the health information form. Fill in the relevant fields and click **Save**.
+
+.. note::
+
+	One health record exists per student. It can be updated at any time. Health record data is only visible to users with sufficient access permissions.
+
+
+.. _students_disciplinary:
+
+Disciplinary Records
+********************
+
+Disciplinary incidents are logged against a student's profile and are accessible from the **Disciplinary Records** tab on the student details page.
+
+Each disciplinary record contains:
+
+* **Incident Date**: the date the incident occurred
+* **Incident Type**: the category of the incident (e.g. Misconduct, Truancy, Insubordination)
+* **Description**: a detailed account of the incident
+* **Action Taken**: the disciplinary measure applied
+* **Status**: whether the incident has been resolved or remains open
+
+Adding a Disciplinary Record
+=============================
+
+1. From the student's details page, click the **Disciplinary Records** tab
+2. Click **Add Incident**
+3. Fill in the incident date, type, description, and action taken
+4. Click **Save Incident**
+
+Managing Records
+================
+
+* Click **Mark Resolved** to close an incident once follow-up is complete
+* Click **Delete** to permanently remove an erroneous record
+
+.. tip::
+
+	All disciplinary incidents across the school can be viewed in aggregate via **Reports > Disciplinary Report**, with filtering by class and incident type.
 
 
 .

@@ -12,12 +12,16 @@ sERP caters to virtually every aspect of school management and administration, f
 Features
 ********
 
-* Student information - bio data, class/attendance information and academic reports
-* HR - staff records management and tax/regulatory compliance
-* Finance - billing, payments/collections, debtors, banking and expenditure/petty cash management
-* Messaging - bulk, individual/personalized, academic and financial SMS functions, including payment notifications
-* PoS - store sales and inventory management
-* Analytics & Reporting - detailed finance, academic and class attendance reporting; plus student enrollment and varied statics
+* Student information — bio data, class/attendance information, health records, disciplinary records, and academic reports
+* HR — staff records management and tax/regulatory compliance (PAYE, SSNIT, Trustee)
+* Finance — billing, payments/collections, debtors, online card payments (Emergent Payments), USSD mobile money, banking and expenditure management
+* Academic Management — assignments, exam scheduling, curriculum planning, lesson plans, and progress reports
+* Messaging — bulk and individual SMS, in-app two-way messaging between staff, students, and parents
+* Communication — parent-teacher conferences, feedback, and class/subject discussion forums
+* Teacher Portal — dedicated interface for teaching staff to manage assignments, notes, lesson plans, and attendance
+* PoS — store sales and inventory management
+* Analytics & Reporting — detailed finance, academic, teacher performance, disciplinary, and attendance reporting
+* Security — multi-factor authentication (MFA) for admin accounts and automated database backups
 
 
 
@@ -53,8 +57,11 @@ Documentation Reference
    /manage/index
    /manage/academic
    /manage/canteen
+   /manage/communication
    /manage/finance
    /manage/hr
    /manage/reports
+   /manage/security
    /manage/sms
    /manage/students
+   /manage/teachers
