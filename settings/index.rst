@@ -29,7 +29,7 @@ General Settings
 
 	* **Email Address**: This is the default email address that will appear on all printed documents, and will also appear as the sender on all email correspondences
 
-	* **Postal Address**: Enter your school P.O. Box or Ghana Post Digital address
+	* **Address**: Enter your school P.O. Box or Ghana Post Digital address
 
 	* **Phone Number(s)**: Enter your school contact numbers. Multiple numbers may be entered, seperated by a comma
 
@@ -228,6 +228,54 @@ The SBA configuration section can be accessed from the academic settings page by
 
 3. Click on "Submit"
 
+
+
+.. _settings_custom_grading:
+
+Custom Grading Scales
+=====================
+
+sERP ships with three built-in grading scales — ``bece``, ``wassce``, and ``primary`` — whose grade boundaries and remarks are stored in the database and can be edited through this interface. Changes take effect immediately on all terminal reports that use the corresponding Grade Type.
+
+The custom grading section can be accessed from the Academic Settings page by clicking on the wrench (|wrench_icon|) icon next to **Custom Grading Scales**.
+
+.. note::
+
+	The scale name is the key that links a scale to a class's Grade Type. Scales named ``bece``, ``wassce``, or ``primary`` (case-insensitive) override the corresponding built-in defaults. Additional scales with custom names can also be created for other purposes.
+
+
+**Creating a new grading scale**
+
+1. From the "Grading Scales" pane, enter a name in the box next to "Scale Name"
+2. Optionally, check "Set as default" to mark this scale as the default
+3. Click "Create Scale"
+
+
+**Adding grade bands to a scale**
+
+1. From the "Grading Scales" list, click on the name of the scale you wish to configure
+2. From the entry form, enter the following:
+
+	* **Grade**: the grade value (e.g. A, B, 1, A1)
+	* **Label**: a short label for the grade (e.g. Excellent)
+	* **Min %**: the minimum score (inclusive) for this grade band
+	* **Max %**: the maximum score (inclusive) for this grade band
+	* **Remark**: an optional remark displayed on progress reports for this grade
+
+3. Click "Add Entry"
+
+
+**Deleting a grade band**
+
+From the entries table, click the delete (|delete_icon|) button for the entry you wish to remove and confirm.
+
+
+**Deleting a grading scale**
+
+From the scales list, click the delete (|delete_icon|) button for the scale you wish to remove. This will also delete all its grade band entries.
+
+.. warning::
+	Deleting a grading scale is irreversible. Deleting a built-in scale (bece, wassce, or primary) will cause the system to fall back to the hard-coded defaults for that grade type.
 
 
 .. _settings_miscellaneous:

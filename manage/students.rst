@@ -271,6 +271,18 @@ The attendance section can be accessed from the :ref:`main nagivation menu <setu
 5. Click "Record Attendance"
 
 
+Deleting Attendance Records (Admin)
+=====================================
+
+Admin users can delete all attendance entries for a given class and date from the "Delete Attendance Record" pane on the same page.
+
+1. Select the **Class** and **Date** for which you wish to delete attendance
+2. Click "Delete Attendance"
+
+.. warning::
+	Deleting attendance records is irreversible. All entries for the selected class and date will be permanently removed.
+
+
 
 
 .. _student_section:

@@ -351,6 +351,26 @@ Adding Supplementary Income
 3. Click "Record Income"
 
 
+Editing Supplementary Income
+=============================
+
+Admin users may edit a previously recorded supplementary income entry.
+
+1. From the supplementary income table, click the edit (|edit_icon|) icon for the entry
+2. Update the date, amount, and/or description in the modal dialog
+3. Click "Save Changes"
+
+
+Deleting Supplementary Income
+==============================
+
+1. From the supplementary income table, click the delete (|delete_icon|) icon for the entry
+2. Confirm the deletion
+
+.. warning::
+	Deleting data is an irreversible process. Only admin users can delete supplementary income records.
+
+
 Viewing and Recording Expenditure
 =================================
 
@@ -374,7 +394,13 @@ Recording Expenditure
 	* Date
 	* Amount
 	* Expenditure Category
-	* Payment Type
+	* **Payment Type**: select the mode of payment — Cash, Cheque, Bank Transfer, or Mobile Money
+
+		.. note::
+			* Selecting **Cheque** reveals an additional "Cheque Number" field
+			* Selecting **Bank Transfer** reveals an additional "Bank" field
+			* Selecting **Mobile Money** reveals an additional "MoMo Reference / Transaction ID" field for recording the transaction reference
+
 	* Expenditure Description
 
 2. Click "Record Expenditure"
