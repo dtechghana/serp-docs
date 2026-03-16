@@ -508,6 +508,7 @@ SMS Settings
 	* **SMS API ID**: enter your D-Tech SMS API ID
 	* **SMS API Key**: enter your D-Tech SMS API Key
 	* **Send payment confirmation to parent?**: toggle to determine whether or not sERP sends payment notification to parent/guardian each time payment is applied to student bill
+	* **Send absence notification to parent?**: toggle to determine whether or not sERP sends notification to parent/guardian when their ward is marked absent
 	* **Default Sender ID**: this is the default value that will appear as the sender of all automated SMS notifications. "SchoolERPGH" will be used as the sender ID if not specified
 
 Setting the API ID and Key
