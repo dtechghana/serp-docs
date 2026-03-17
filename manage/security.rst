@@ -27,12 +27,12 @@ MFA Login Process
 Configuring a Mobile Number for MFA
 =====================================
 
-MFA uses the **mobile number** registered against the staff member's record in HR.
+Administrator accounts must have a mobile number registered in order to receive OTP codes. This is managed from the **Change Password** page.
 
-1. Navigate to **HR > Staff List**
-2. Find the administrator's staff record and click **Edit**
-3. Enter or update the **Mobile Number** field
-4. Click **Save Changes**
+1. Log in as the administrator
+2. From the welcome menu, click **Change Password**
+3. In the **MFA Phone Number** pane, enter or update the mobile number
+4. Click **Save Phone**
 
 .. warning::
 
@@ -40,7 +40,7 @@ MFA uses the **mobile number** registered against the staff member's record in H
 
 .. note::
 
-	MFA is currently applied to administrator accounts (access level 1) only. Standard staff, teacher, student, and parent accounts log in with username and password only.
+	MFA is applied to administrator accounts only. Standard staff, teacher, student, and parent accounts log in with username and password only.
 
 
 .. _security_backups:

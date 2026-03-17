@@ -5,6 +5,16 @@ sERP v1.11 introduces a suite of in-app communication tools that complement the 
 
 Access the Communication tools from the **Communication** section in the main navigation menu.
 
+.. note::
+
+	Access to the communication tools for **staff** users is controlled by the following access roles, which must be assigned by an administrator via :ref:`Manage Users <users_edit>`:
+
+	* **Messaging** (role 94) — required for staff to send and receive in-app messages
+	* **Forums** (role 95) — required for staff to view and participate in discussion forums
+	* **Conferences** (role 96) — required for staff to schedule and manage parent-teacher conferences
+
+	Students and parents have access to the features relevant to them (Messages, Conferences for parents, Forums) automatically through their portal accounts, without requiring these roles.
+
 .. |edit_icon| image:: ../images/pencil.png
 .. |delete_icon| image:: ../images/trash.png
 
