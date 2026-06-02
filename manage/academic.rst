@@ -633,4 +633,119 @@ Adding a Lesson Plan
 	Lesson plans can also be created and managed from the Teacher Portal, which provides teachers with a dedicated interface without requiring access to the full admin panel.
 
 
+.. _academic_grading_scales:
+
+Grading Scales
+**************
+
+.. note::
+
+   The following grading scales are available in **sERP v2.0** and later in addition to the existing BECE, WASSCE, and Primary scales.
+
+sERP supports multiple grading frameworks that can be configured per SBA profile. Schools with mixed programmes can assign a different grading scale to each class via **Settings > SBA Configuration**.
+
+Cambridge Lower Secondary (Cambridge LS)
+========================================
+
+Eight bands aligned to Cambridge International Lower Secondary progression:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Grade
+     - Range
+     - GPA
+     - Remark
+   * - A*
+     - 90–100
+     - 4.0
+     - Excellent
+   * - A
+     - 80–89
+     - 3.5
+     - Excellent
+   * - B
+     - 70–79
+     - 3.0
+     - Very Good
+   * - C
+     - 60–69
+     - 2.5
+     - Good
+   * - D
+     - 50–59
+     - 2.0
+     - Credit
+   * - E
+     - 40–49
+     - 1.5
+     - Pass
+   * - F
+     - 30–39
+     - 1.0
+     - Weak
+   * - U
+     - 0–29
+     - 0.0
+     - Ungraded
+
+Cumulative GPA (CGPA) is computed as the GPA equivalent of the student's cumulative average score across subjects.
+
+Preschool
+=========
+
+Five bands for Nursery and Kindergarten levels:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Grade
+     - Range
+     - Remark
+   * - A
+     - 80–100
+     - Excellent
+   * - B
+     - 70–79
+     - Very Good
+   * - C
+     - 60–69
+     - Good
+   * - D
+     - 50–59
+     - Satisfactory
+   * - E
+     - 0–49
+     - Requires Effort and Special Attention (R.E.S.)
+
+Montessori
+==========
+
+Four mastery-based bands without numerical GPA:
+
+.. list-table::
+   :header-rows: 1
+
+   * - Grade
+     - Range
+     - Remark
+   * - M
+     - 80–100
+     - Mastered
+   * - P
+     - 60–79
+     - Progressing
+   * - I
+     - 40–59
+     - Introduced
+   * - N
+     - 0–39
+     - Not Attempted
+
+Custom Scales
+=============
+
+All built-in scales can be overridden or extended via **Settings > Grading Scales**. Custom scales created there are automatically available in the SBA configuration grade-type dropdown.
+
+
 .

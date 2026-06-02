@@ -462,3 +462,107 @@ When enabled, the reminder script runs on a configured schedule (typically Monda
 
 	SMS API credentials must be configured in **Settings > SMS Settings** for automated reminders to function.
 
+
+.. _finance_fixed_assets:
+
+Fixed Assets Register
+*********************
+
+.. note::
+
+   This feature is available in **sERP v2.0** and later.
+
+The Fixed Assets Register tracks every physical asset owned by the school — from buildings and vehicles to ICT equipment and laboratory apparatus. Each asset is assigned a unique code, linked to a category and optionally a department, and is subject to a computed depreciation schedule.
+
+Asset Categories
+================
+
+Before registering assets, define categories under **Fixed Assets > Categories**. Each category specifies a default useful life (years) and a default depreciation rate.
+
+Seven categories are pre-seeded: Buildings, Vehicles, ICT Equipment, Fixtures & Fittings, Furniture, Land (non-depreciating), and Laboratory Equipment.
+
+Adding an Asset
+===============
+
+1. Navigate to **Fixed Assets > Register** and click **Add Asset**.
+2. Complete the form: name, category, department (optional), location, serial number, supplier, acquisition date, cost, salvage value, useful life, and depreciation method (Straight-Line or Declining Balance).
+3. The asset code is auto-generated (e.g. ``FA-ICT-0001``).
+
+Depreciation
+============
+
+Navigate to **Fixed Assets > Depreciation** to compute annual depreciation for all active assets. Depreciation can be run per-asset or in bulk for a given calendar year. Results are stored and show opening value, depreciation charge, and closing book value.
+
+Disposals
+=========
+
+When an asset is retired, navigate to its detail view and select **Dispose**. Specify the disposal type (Sale, Write-Off, or Damaged), the disposal date, and any proceeds received. The asset status is updated automatically.
+
+Reports
+=======
+
+The **Fixed Assets > Reports** page provides a summary of asset values by category, a full register listing, and a depreciation history per asset.
+
+
+.. _finance_accounting:
+
+Double-Entry Accounting
+***********************
+
+.. note::
+
+   This feature is available in **sERP v2.0** and later.
+
+sERP includes a complete double-entry bookkeeping system. Financial transactions from fee payments, POS/store sales, canteen, and payroll are posted to the general ledger automatically, with manual journal entry also supported.
+
+Chart of Accounts
+=================
+
+Navigate to **Accounting > Chart of Accounts** to view and manage accounts. Accounts are classified as Asset, Liability, Equity, Revenue, or Expense and carry a normal balance direction (debit or credit). System accounts (used in auto-posting) are marked and cannot be deleted.
+
+A default Chart of Accounts is seeded on installation and can be extended to suit the school's needs.
+
+Financial Periods
+=================
+
+Create accounting periods under **Accounting > Periods** (e.g. "Jan–Mar 2025"). Periods can be closed to prevent further posting.
+
+Journals
+========
+
+Five journal types are supported:
+
+- **Receipt** — income received (fee payments, POS sales)
+- **Payment** — expenditure paid out
+- **Contra** — internal transfers between accounts
+- **Journal** — general manual adjustments
+- **Payroll** — monthly payroll entries
+
+Each journal entry must balance (total debits = total credits). A unique reference is auto-generated per entry.
+
+Journals can be reversed, which creates a mirror entry with opposite debits/credits.
+
+Auto-Posting
+============
+
+The following transactions post journal entries automatically when processed:
+
+- Fee payments (billable and non-billable)
+- POS / store sales
+- Canteen payments
+- Expenditure records
+- Monthly payroll (via **Accounting > Sync > Payroll**)
+
+Any posting failures (e.g. missing COA account) are logged under **Accounting > Posting Failures** and can be resolved manually.
+
+Reports
+=======
+
+- **Trial Balance** — debit/credit totals per account for a date range
+- **Income Statement** — revenue minus expenses (surplus/deficit)
+- **Balance Sheet** — assets, liabilities, and equity as at a date
+- **General Ledger** — running balance for a single account
+- **Budget vs Actual** — budgeted vs actual amounts per period
+
+Data can be exported to **CSV** (compatible with Excel) or **IIF** (Intuit Interchange Format for QuickBooks import).
+
