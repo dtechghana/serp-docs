@@ -19,7 +19,7 @@ General Settings
 2. From the "General Settings" section, click on any wrench (|wrench_icon|) icon on the right section of the page
 3. Enter the following details:
 
-	* **School Emblem**: Select and upload image file representing your school's logo (*only JPEG files are supported, and image file should be under 400px*)
+	* **School Emblem**: Click the camera icon to upload a JPEG image (*under 400px*) representing your school's logo. After selecting the file, a crop overlay will appear — draw a selection box around the area you wish to use and click **Crop Image** to confirm.
 
 	* **School Name**: Enter your school name as you wish it to appear throughout the sERP, including on printed documents
 
@@ -545,6 +545,41 @@ Setting the API ID and Key
 	3. From the navigation menu, go to "API" -> "API Access" to obtain User ID and API Key
 
 
+
+
+.. _settings_export:
+
+Export Data
+***********
+
+1. From the :ref:`welcome menu <setup_layout>`, click on "Settings"
+2. Click on "Export Data"
+
+.. note::
+	The Export Data page is only accessible to administrators.
+
+This page allows you to download school data as CSV files. Select one or more datasets from the list and click **Export Selected**:
+
+* **Students** — student records including personal details, guardian contacts, and account status. Optional filters:
+
+	* *Filter by Class*: restrict the export to a specific class
+	* *Status*: export active students only, withdrawn students only, or all
+
+* **Staff** — all active staff records including personal details, department, employment type, and salary information
+
+* **Classes** — class list with active and withdrawn student counts per class
+
+* **Fee Payments** — all recorded fee payments with receipt numbers and payment dates. Optional filters:
+
+	* *Term*: restrict to a specific term or semester
+	* *Academic Year*: restrict to a specific academic year
+
+Selecting a single dataset downloads a ``.csv`` file directly. Selecting multiple datasets downloads a ``.zip`` archive containing one CSV file per dataset.
+
+.. note::
+	* All CSV files are UTF-8 encoded with a BOM for Excel compatibility
+	* Dates are exported in ``YYYY-MM-DD`` format
+	* Export actions are recorded in the activity log
 
 
 

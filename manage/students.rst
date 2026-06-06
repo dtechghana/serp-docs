@@ -186,7 +186,12 @@ Captures student's parents' details, including:
 Photo
 =====
 
-Upload image to be used as student photo ID
+To upload a student photo:
+
+1. Click the camera icon on the photo placeholder
+2. Select a JPEG image file from your device
+3. In the crop overlay that appears, draw a selection box around the area you wish to use
+4. Click **Crop Image** to confirm
 
 
 2. Click on "Add Student"
@@ -349,7 +354,7 @@ Modifying Campus Data
 1. From the "Campuses" pane, click on "Edit Campus" (|edit_icon|)
 2. Here you can:
 	* Enter the name of the campus in the box next to "Campus Name", 
-	* In the box next to "Headmaster's Signature", select a JPEG image for the headmaster's signature, which will appear on student :ref:`progress reports <academic_terminal_reports>`.
+	* In the box next to "Headmaster's Signature", click the camera icon to upload a JPEG image. In the crop overlay that appears, draw a selection box around the signature area and click **Crop Image** to confirm. The cropped image is automatically appended to terminal reports that require a headmaster's signature.
 	
 3.Click "Modify Campus"
 
