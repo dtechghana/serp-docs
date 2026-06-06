@@ -120,41 +120,60 @@ Academic Settings
 
 .. _settings_calendar:
 
-Default Academic Calendar
-=========================
+Academic Calendar Management
+=============================
 
 From the Academic Settings section, click on the wrench (|wrench_icon|) icon to the right of "Default Academic Year / Term".
 
-**Setting the default calendar**
+This opens the **Academic Calendar Management** page, which combines entry management and activation in one place. The page shows:
 
-1. From the "Update Default Academic Calendar" pane, select:
-
-	* **Category**: the category (i.e. Trimester or Semster) you wish to set the default calendar for
-	* **Default Calendar**: the academic calendar item from the list of created calendar entries
-
-		.. tip::
-			If no calendar entries exist, you would need to :ref:`create a new academic calendar entry <settings_calendar_data>`
-
-2. Click "Save"
+* An **Add Calendar Entry** form on the left
+* The **Active Calendars** status panel and **All Entries** table on the right
 
 
+.. _settings_calendar_add:
+
+**Adding a new calendar entry**
+
+1. In the "Add Calendar Entry" form, enter the following:
+
+	* **Academic Year**: select the start and end years (e.g. 2025 / 2026)
+	* **Label**: (optional) a name to identify this entry. Defaults to "Default" if left blank
+	* **Category**: select Trimester or Semester
+	* **Term/Semester**: select First, Second, or Third
+	* **Begins**: select the term/semester start date
+	* **Ends**: select the term/semester end date
+
+2. Click "Add Entry". The new entry appears immediately in the "All Entries" table.
 
 
-.. _settings_calendar_data:
+.. _settings_calendar_activate:
 
-**Adding a new calendar data entry**
+**Activating a calendar entry**
 
-1. From the "Update Default Academic Calendar" pane, click on the "Manage Entries" button
-2. From the "Add Academic Calendar Details" pane, enter the following:
+The **Active Calendars** panel shows which entry is currently active for each category (Trimester and Semester). To change the active entry:
 
-	* **Academic Year**: select the academic year you wish to add a calendar entry for
-	* **Label**: (optional) enter a name to identify the calendar entry. Defaults to "Default" if none is entered
-	* **Category**: select the category (i.e. Trimester or Semester) this calendar entry applies to
-	* **Term/Semseter**: select the term/semester you wish to add a calendar entry for
-	* **Begins**: select the start date for the term/semester
-	* **Ends**: select the end date for the semester
+1. Locate the entry in the "All Entries" table
+2. Click the **Activate** button on that row
 
-3. Click "Save"
+The entry becomes active immediately — the Active Calendars panel updates and the row is highlighted in green. Active rows do not show an Activate button.
+
+.. note::
+	You can maintain entries for multiple academic years and switch between them as the term changes. Only one entry per category (Trimester / Semester) can be active at a time.
+
+
+.. _settings_calendar_delete:
+
+**Deleting a calendar entry**
+
+1. Locate the entry in the "All Entries" table
+2. Click the delete (|delete_icon|) button on that row
+3. Confirm the deletion
+
+.. warning::
+	* Deleting an entry is irreversible.
+	* You cannot delete an entry that is currently active. Activate a different entry first, then delete the previous one.
+	* The delete button is only visible to administrators.
 
 
 
