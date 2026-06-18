@@ -31,12 +31,19 @@ General Settings
 
 	* **Address**: Enter your school P.O. Box or Ghana Post Digital address
 
-	* **Phone Number(s)**: Enter your school contact numbers. Multiple numbers may be entered, seperated by a comma
+	* **Phone Number(s)**: Enter your school contact numbers. Multiple numbers may be entered, separated by a comma
 
-	* **Tax Identification Number (TIN)**: Enter your school tax identifiction number (TIN)
+	* **Tax Identification Number (TIN)**: Enter your school tax identification number (TIN)
 
 4. Click the "Save" button after entering the above information.
 
+
+.. _settings_ussd_code:
+
+USSD Pay Code
+=============
+
+The **USSD Pay Code** is a system-assigned read-only identifier displayed on the General Settings page. It represents the school's unique code used in the USSD payment flow and cannot be changed through the settings interface.
 
 
 .. _settings_student_prefix:
@@ -220,7 +227,7 @@ The SBA configuration section can be accessed from the academic settings page by
 2. Enter the following information:
 
 	* **Configuration Name**: a value to identify the new configuration
-	* **No. of Class Work Columns**: the number of classworks given as part of student assessment within a term/semester. sERP supports a minumum of 4 and maximum of 8 classworks
+	* **No. of Class Work Columns**: the number of classworks given as part of student assessment within a term/semester. sERP supports a minimum of 4 and maximum of 8 classworks
 	* **Class A{N} Max. Score**: the maximum attainable marks for each classwork defined above
 	* **Classwork Scale %**: the percentage value that the sum of all classworks will be scaled to
 	* **Exam Scale %**: the percentage value that the total exam score will be scaled to for assessment
@@ -341,7 +348,7 @@ The "Current Tax rates" pane displays the tax rates as presently configured in s
 
 **Updating tax rates**
 
-Income tax rates are periodically ammended and published on the GRA website: https://gra.gov.gh/
+Income tax rates are periodically amended and published on the GRA website: https://gra.gov.gh/
 
 To update tax rates:
 
@@ -488,6 +495,10 @@ Footnotes can be included on student's bills for the purpose of conveying specif
 2. Click "Save"
 
 
+Display Student Photo on Bills
+==============================
+
+Toggle whether a student's photo is printed on their bill/invoice. When enabled, the student's photo (if one has been uploaded) will appear on all generated bills.
 
 
 .
@@ -508,6 +519,7 @@ SMS Settings
 	* **SMS API ID**: enter your D-Tech SMS API ID
 	* **SMS API Key**: enter your D-Tech SMS API Key
 	* **Send payment confirmation to parent?**: toggle to determine whether or not sERP sends payment notification to parent/guardian each time payment is applied to student bill
+	* **Send notification to parent on student registration?**: toggle to determine whether or not sERP sends an SMS to the parent/guardian when a new student is registered
 	* **Send absence notification to parent?**: toggle to determine whether or not sERP sends notification to parent/guardian when their ward is marked absent
 	* **Default Sender ID**: this is the default value that will appear as the sender of all automated SMS notifications. "SchoolERPGH" will be used as the sender ID if not specified
 
