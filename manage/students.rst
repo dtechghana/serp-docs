@@ -288,6 +288,20 @@ Admin users can delete all attendance entries for a given class and date from th
 	Deleting attendance records is irreversible. All entries for the selected class and date will be permanently removed.
 
 
+Biometric Attendance
+=====================
+
+.. note::
+
+   This feature is available in **sERP v2.1** and later.
+
+In addition to manual entry above, student attendance can be captured automatically from a fingerprint, facial recognition, or card-based biometric device. See :doc:`/manage/biometric` for details on device setup, mapping, and settings.
+
+.. note::
+
+   Manually-recorded attendance always takes precedence over automatically-captured biometric attendance for the same class and date.
+
+
 
 
 .. _student_section:

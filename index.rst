@@ -56,6 +56,7 @@ Documentation Reference
    /ussd/index
    /manage/index
    /manage/academic
+   /manage/biometric
    /manage/canteen
    /manage/communication
    /manage/finance

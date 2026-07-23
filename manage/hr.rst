@@ -187,3 +187,32 @@ PAYE Calculator
 Navigate to **HR > PAYE Calculator** to calculate the PAYE liability for a given gross income amount, based on the currently configured GRA tax bands. This is a reference tool only and does not affect any payroll records.
 
 Enter a gross salary amount and click **Calculate** to see the computed taxable income, applicable reliefs, and PAYE due.
+
+
+.. _hr_staff_attendance:
+
+Staff Attendance
+****************
+
+Staff Attendance lets you record daily attendance for every staff member. Access it from **HR > Staff Attendance**.
+
+1. Select the **Date** you wish to record attendance for and click **Load**
+2. For each staff member, choose a **Status**: Present, Absent, Late, or Half Day
+3. Optionally enter an **Arrival Time** and **Notes**
+4. Click **Save Attendance**
+
+Reopening the page for a date that already has recorded entries pre-fills the current status, arrival time, and notes for each staff member, so you can review or correct a previous submission.
+
+.. note::
+
+   Manually-recorded attendance always takes precedence over automatically-captured biometric attendance (see below) for the same staff member and date.
+
+
+Biometric Attendance
+=====================
+
+.. note::
+
+   This feature is available in **sERP v2.1** and later.
+
+In addition to manual entry, staff (and student) attendance can be captured automatically from a fingerprint, facial recognition, or card-based biometric device. See :doc:`/manage/biometric` for details on device setup, mapping, and settings.
