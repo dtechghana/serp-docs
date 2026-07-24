@@ -446,6 +446,8 @@ Successful payments are automatically applied to the student's fee account and a
 	The USSD payment platform (``*789*87#``) handles mobile money payments (MTN MoMo, Telecel Cash, AirtelTigo Money). The online integration extends this to card-based and digital wallet payments.
 
 
+.. _finance_fee_reminders:
+
 Automated Fee Reminders
 ***********************
 
@@ -453,14 +455,14 @@ sERP can send automated weekly SMS fee reminders to parents of students with out
 
 To enable automated reminders:
 
-1. Navigate to **Settings > Finance Settings**
-2. Toggle **Automated Fee Reminders** to ON
+1. Navigate to **Settings > SMS Settings**
+2. Toggle **Send automated weekly fee reminder SMS to parents?** to ON
 
-When enabled, the reminder script runs on a configured schedule (typically Monday mornings) and sends SMS to all parents with a balance due, using the existing SMS integration.
+When enabled, the reminder script runs every Monday at 8am and sends SMS to all parents with a balance due, using the existing SMS integration.
 
 .. note::
 
-	SMS API credentials must be configured in **Settings > SMS Settings** for automated reminders to function.
+	SMS API credentials must also be configured on the same **Settings > SMS Settings** page for automated reminders to function.
 
 
 .. _finance_fixed_assets:

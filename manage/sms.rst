@@ -58,7 +58,7 @@ Alternatively, click **Print Reminders** to generate printed reminder notes inst
 
 .. note::
 
-	Automated weekly fee reminders can also be configured via the cron-based reminder system. See **Settings > Finance Settings** for the automated reminders toggle.
+	Automated weekly fee reminders can also be configured via the cron-based reminder system — see :ref:`Automated Fee Reminders <finance_fee_reminders>`. The toggle lives in **Settings > SMS Settings**, alongside the other automated SMS triggers.
 
 
 .. _sms_terminal_reports:
