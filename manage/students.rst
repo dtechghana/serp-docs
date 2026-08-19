@@ -367,9 +367,16 @@ Modifying Campus Data
 
 1. From the "Campuses" pane, click on "Edit Campus" (|edit_icon|)
 2. Here you can:
-	* Enter the name of the campus in the box next to "Campus Name", 
+	* Enter the name of the campus in the box next to "Campus Name",
 	* In the box next to "Headmaster's Signature", click the camera icon to upload a JPEG image. In the crop overlay that appears, draw a selection box around the signature area and click **Crop Image** to confirm. The cropped image is automatically appended to terminal reports that require a headmaster's signature.
-	
+
+	.. note::
+
+		The following fields are available in **sERP v2.0** and later.
+
+	* **Campus Emblem**: works the same way as "Headmaster's Signature" above, but for the campus's own logo/emblem. This is used in place of the school's main emblem on bills, reports, and receipts generated for students at this campus. Leave empty to use the school's main emblem instead.
+	* **Student ID Prefix**: the prefix used when auto-generating student IDs for students admitted to this campus (see :ref:`Configure Student ID Prefix <setup_student_prefix>`). Every campus should have its own prefix set.
+
 3.Click "Modify Campus"
 
 

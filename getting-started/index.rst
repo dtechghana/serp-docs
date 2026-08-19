@@ -76,14 +76,18 @@ The student ID format is illustrated below:
 .. image:: ../images/student_prefix.png
 	:alt: Student ID Prefix
 
-To configure the student ID prefix:
-
 .. |wrench_icon| image:: ../images/wrench.png
+
+To configure the student ID prefix:
 
 1. From the :ref:`welcome menu <setup_layout>`, click on "Settings"
 2. From the general settings page, click wrench (|wrench_icon|) icon next to "Student ID Prefix"
 3. In the "Student ID Prefix", enter the value you wish to use as the student ID prefix
 4. Click "Save"
+
+.. note::
+
+	In **sERP v2.0** and later, schools with more than one campus configure a separate student ID prefix per campus instead of one school-wide prefix — see :ref:`Modifying Campus Data <students_edit_campus>`. The steps above configure a single school-wide prefix, used in v1.11.
 
 
 .

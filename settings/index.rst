@@ -55,6 +55,10 @@ Student ID Prefix
 2. In the "Student ID Prefix", enter the value you wish to use as the student ID prefix
 3. Click "Save"
 
+.. note::
+
+	**sERP v2.0** and later replaces this school-wide prefix with a separate prefix per campus, configured from :ref:`Modifying Campus Data <students_edit_campus>` instead — there is no general-settings "Student ID Prefix" page in v2.0. The general settings page instead shows a "Correspondence Reference Prefix", used only for numbering :ref:`correspondence <academic_correspondence>` letters, not student IDs.
+
 
 .. _settings_staff_prefix:
 

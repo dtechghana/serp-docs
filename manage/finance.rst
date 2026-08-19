@@ -418,13 +418,17 @@ Online Payments
 
 In addition to USSD mobile money payments, sERP supports online card payments. This allows parents and students to pay school fees using debit/credit cards.
 
+.. note::
+
+	In **sERP v2.0** and later, online payments are processed through `Paystack <https://paystack.com>`_. There is no payment method selection step — submitting the form redirects to Paystack's own hosted checkout page, where the payer chooses card, mobile money, or bank transfer.
+
 Initiating an Online Payment (Admin)
 ======================================
 
 1. Navigate to **Finance > Online Payments**
 2. Search for and select the student
 3. Enter the payment amount
-4. Select the payment method
+4. Select the payment method (v1.11 only — see note above for v2.0 and later)
 5. Click **Initiate Payment**
 
 A unique payment reference is generated and the payment request is sent to the payment gateway. The status updates automatically once the gateway confirms the transaction.
