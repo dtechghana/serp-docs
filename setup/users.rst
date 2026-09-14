@@ -42,7 +42,7 @@ Adding a New User
 
 		The following applies to **sERP v2.0** and later, for schools with more than one campus.
 
-		* Selecting a staff "User Type" reveals a **Campus** field. Select the campus this user should be restricted to — they will only be able to see and manage students, staff, and reports belonging to that campus.
+		* Selecting a staff "User Type" reveals a **Campus** field. Select the campus this user should be restricted to — they will only be able to see and manage students, staff, reports, and finance information (fees, bills, debtors, and payments) belonging to that campus.
 		* One of the selectable staff types is **Multi-Campus Administrator** — this type is not restricted to a single campus, and can switch between campuses (or view all of them at once) from the campus switcher in the main navigation menu. Leave the Campus field unselected for this user type.
 
 	* **Username**: enter a username for the user

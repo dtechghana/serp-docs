@@ -31,7 +31,7 @@ Add Class
 		* **Campus**: select the campus/location where this class belongs
 		* **Division**: select the division this class belongs
 		* **Class Teacher**: select and assign a class teacher for this class. *(This requires a user account to have been created, and assigned to a staff in sERP)*
-		* **Class Code**: enter a code for this class. (*This is required for* :ref:`student ID generation <setup_student_prefix>`)
+		* **Class Code**: enter a code for this class. (*Required for* :ref:`student ID generation <setup_student_prefix>` **in sERP v1.11**; not used for this in v2.0 and later, where the ID's incremental number runs per campus instead)
 
 	.. tip::
 		You can add multiple classes at a go by clicking on the drop down arrow ( |drop_arrow| ) in the "Quick Add Class(es)" pane
@@ -54,7 +54,7 @@ Modifying Class Data
 
 	.. note::
 		* **Class Name**: enter the name of the class as you'd like it to appear
-		* **Class Code**: enter a code for this class (*This is required for* :ref:`student ID generation <setup_student_prefix>`). Changes have no effect on existing student ID
+		* **Class Code**: enter a code for this class (*required for* :ref:`student ID generation <setup_student_prefix>` **in sERP v1.11**; not used for this in v2.0 and later). Changes have no effect on existing student ID
 		* **Academic Calendar**: select the academic calendar category for the class
 		* **Campus**: select the campus/location where this class belongs
 		* **Group**: select the class group to add this class to

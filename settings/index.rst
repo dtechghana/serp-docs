@@ -505,6 +505,26 @@ Display Student Photo on Bills
 Toggle whether a student's photo is printed on their bill/invoice. When enabled, the student's photo (if one has been uploaded) will appear on all generated bills.
 
 
+.. _settings_payment_gateway:
+
+Online Payment Gateway
+=======================
+
+.. note::
+
+	This section applies to **sERP v2.0** and later only — v1.11 has no online payment gateway settings.
+
+Configures the credentials sERP uses to process :ref:`online payments <finance_online_payments>` via `Paystack <https://paystack.com>`_. Accessible from the Finance Settings page by clicking on "Online Payment Gateway".
+
+1. Sign up for a Paystack account (or use an existing one) and retrieve your **Public Key** and **Secret Key** from the Paystack dashboard
+2. Enter the **Public Key** and **Secret Key** in the respective fields
+3. Click "Save"
+
+.. note::
+
+	The Secret Key is encrypted at rest. Once saved, the field shows a placeholder instead of the actual key — leave it blank when saving other changes to keep the existing key, or enter a new one to replace it.
+
+
 .
 
 .

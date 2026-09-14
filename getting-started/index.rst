@@ -69,12 +69,14 @@ Enter basic information about your school. This information is generally used ac
 Configure Student ID Prefix
 ===========================
 
-sERP utilizes a combination of the student ID prefix and the class code when generating student IDs. The student ID prefix has to be configured in order for sERP to be able to auto generate student IDs during registration.
+The student ID prefix has to be configured in order for sERP to be able to auto generate student IDs during registration. The rest of the ID format differs by version:
 
-The student ID format is illustrated below:
+* **sERP v1.11**: prefix + class code + incremental number, illustrated below.
 
-.. image:: ../images/student_prefix.png
-	:alt: Student ID Prefix
+	.. image:: ../images/student_prefix.png
+		:alt: Student ID Prefix
+
+* **sERP v2.0 and later**: prefix + admission year + incremental number, e.g. ``HGST/2026/001``. The incremental number is a single running count per campus — it does not reset each year and does not depend on class code.
 
 .. |wrench_icon| image:: ../images/wrench.png
 
@@ -178,7 +180,7 @@ Add Classes
 		* **Campus**: select the campus/location where this class belongs
 		* **Division**: select the division this class belongs
 		* **Class Teacher**: select and assign a class teacher for this class. *(This requires a user account to have been created, and assigned to a staff in sERP)*
-		* **Class Code**: enter a code for this class. (*This is required for* :ref:`student ID generation <setup_student_prefix>`)
+		* **Class Code**: enter a code for this class. (*Required for* :ref:`student ID generation <setup_student_prefix>` **in sERP v1.11**; not used for this in v2.0 and later, where the ID's incremental number runs per campus instead)
 
 	.. tip::
 		You can add multiple classes at a go by clicking on the drop down arrow ( |drop_arrow| ) in the "Quick Add Class(es)" pane

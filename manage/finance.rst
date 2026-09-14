@@ -3,6 +3,10 @@ Finance Module
 
 The following sections provides information surrounding the management of financial aspects of sERP.
 
+.. note::
+
+	In **sERP v2.0** and later, for schools with more than one campus, a staff user restricted to a single campus (see :ref:`Add User <users_add_user>`) only sees and manages fees, bills, reminders, and debtors belonging to their own campus throughout this module — not just via the optional "By Campus" filters described below.
+
 .. |edit_icon| image:: ../images/pencil.png
 .. |delete_icon| image:: ../images/trash.png
 .. |info_icon| image:: ../images/info.png
@@ -420,7 +424,7 @@ In addition to USSD mobile money payments, sERP supports online card payments. T
 
 .. note::
 
-	In **sERP v2.0** and later, online payments are processed through `Paystack <https://paystack.com>`_. There is no payment method selection step — submitting the form redirects to Paystack's own hosted checkout page, where the payer chooses card, mobile money, or bank transfer.
+	In **sERP v2.0** and later, online payments are processed through `Paystack <https://paystack.com>`_. There is no payment method selection step — submitting the form redirects to Paystack's own hosted checkout page, where the payer chooses card, mobile money, or bank transfer. Requires the :ref:`Online Payment Gateway <settings_payment_gateway>` to be configured with valid Paystack credentials first.
 
 Initiating an Online Payment (Admin)
 ======================================
