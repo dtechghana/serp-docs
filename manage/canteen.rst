@@ -78,6 +78,24 @@ Recording a Sale
 3. Select the customer (student or walk-in)
 4. Click **Complete Sale** — stock is automatically decremented
 
+Cancelling/Reversing a Sale
+===========================
+
+A cashier can cancel a sale they recorded; an admin or superadmin can cancel any sale. To cancel a sale:
+
+1. Open the sale's receipt, either from its link in the Sales list or by clicking the "Cancel Sale" icon next to it in the Sales list
+2. Click **Cancel Sale**
+3. Enter a reason for cancelling the sale
+4. Click **Cancel Sale** to confirm
+
+Cancelling a sale reverses the stock for every item in that sale — the quantity sold is added back to inventory automatically, and this is visible in the item's own stock adjustment history. A cancelled sale no longer appears in the default Sales list, which only shows completed sales, but it's still reachable directly via its receipt link. That receipt then shows a "Cancelled" badge in place of the usual Print Receipt option.
+
+Access to cancel a sale is controlled by its own access role, separate from the roles for viewing the module or recording a sale. An admin must grant this permission before a user can cancel sales.
+
+.. note::
+
+	A cancelled sale is never deleted. The sale record is kept, along with who cancelled it, when, and why, and the stock reversal itself is logged in the item's inventory history.
+
 Sales Reports
 =============
 
