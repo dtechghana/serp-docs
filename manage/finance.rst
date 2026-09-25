@@ -329,6 +329,57 @@ Bill reminders enable you communicate to parents whose wards are owing fees by s
 .
 
 
+Store & Inventory (PoS)
+***********************
+
+The PoS sub-module manages a school store inventory. Navigate to **Finance > Store & Inventory** to access it.
+
+Adding Items
+============
+
+1. Navigate to **Store & Inventory > Items**
+2. Click **Add Item**
+3. Enter the item name, category, unit price, and opening stock quantity
+4. Click **Save**
+
+Recording a Sale
+================
+
+1. Navigate to **Store & Inventory > New Sale**
+2. Search for and select items; enter quantities
+3. Select the customer (student or walk-in)
+4. Click **Complete Sale** — stock is automatically decremented
+
+Cancelling/Reversing a Sale
+===========================
+
+A cashier can cancel a sale they recorded; an admin or superadmin can cancel any sale. To cancel a sale:
+
+1. Open the sale's receipt, either from its link in the Sales list or by clicking the "Cancel Sale" icon next to it in the Sales list
+2. Click **Cancel Sale**
+3. Enter a reason for cancelling the sale
+4. Click **Cancel Sale** to confirm
+
+Cancelling a sale reverses the stock for every item in that sale — the quantity sold is added back to inventory automatically, and this is visible in the item's own stock adjustment history. A cancelled sale no longer appears in the default Sales list, which only shows completed sales, but it's still reachable directly via its receipt link. That receipt then shows a "Cancelled" badge in place of the usual Print Receipt option.
+
+Access to cancel a sale is controlled by its own access role, separate from the roles for viewing the module or recording a sale. An admin must grant this permission before a user can cancel sales.
+
+.. note::
+
+	A cancelled sale is never deleted. The sale record is kept, along with who cancelled it, when, and why, and the stock reversal itself is logged in the item's inventory history.
+
+Sales Reports
+=============
+
+Navigate to **Store & Inventory > Sales Report** to view sales by date range, item, or campus. Staff with the store access role can only view their own campus sales.
+
+.. note::
+
+	Stock levels are updated in real time as sales are recorded. Low-stock items can be identified from the Items list.
+
+.
+
+
 Income and Expenditure
 **********************
 
