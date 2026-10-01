@@ -525,6 +525,22 @@ Configures the credentials sERP uses to process :ref:`online payments <finance_o
 	The Secret Key is encrypted at rest. Once saved, the field shows a placeholder instead of the actual key — leave it blank when saving other changes to keep the existing key, or enter a new one to replace it.
 
 
+.. _settings_email_receipts:
+
+Email Receipts
+==============
+
+.. note::
+
+	This section applies to **sERP v2.0** and later only.
+
+When enabled, sERP automatically emails parents a PDF copy of the receipt to the student's registered guardian email address whenever a fee payment is recorded, alongside the existing SMS confirmation.
+
+.. note::
+
+	The mail server credentials used to send these emails are configured by Darrel Technologies as part of your installation and are not editable from this settings page.
+
+
 .
 
 .
@@ -562,6 +578,23 @@ Setting the API ID and Key
 	3. From the navigation menu, go to "API" -> "API Access" to obtain User ID and API Key
 
 
+
+
+.. _settings_dashboard_widgets:
+
+Dashboard Widgets
+*****************
+
+.. note::
+
+	This section applies to **sERP v2.0** and later only.
+
+1. From the :ref:`welcome menu <setup_layout>`, click on "Settings"
+2. Click on "Dashboard Widgets"
+3. Toggle which widgets (e.g. classes, enrollment, staff, attendance summary) appear on the staff dashboard
+4. Click "Save"
+
+This is set once by an administrator and applies to the staff dashboard school-wide.
 
 
 .. _settings_export:

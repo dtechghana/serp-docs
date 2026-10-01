@@ -19,4 +19,4 @@ This section of the guide covers the core modules and features available in sERP
 * :doc:`/manage/parentportal` — Parent portal: wards overview, fees, attendance, assignments, and communications
 * :doc:`/manage/studentportal` — Student portal: fees, attendance, assignments, notes, timetable, and communications
 * :doc:`/manage/communication` — In-app messaging, parent-teacher conferences, feedback, and discussion forums
-* :doc:`/manage/security` — Multi-factor authentication and automated backups
+* :doc:`/manage/security` — Multi-factor authentication, automated backups, and encryption of sensitive data at rest

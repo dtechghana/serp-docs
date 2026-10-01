@@ -21,7 +21,7 @@ Features
 * Teacher Portal — dedicated interface for teaching staff to manage assignments, notes, lesson plans, and attendance
 * PoS — store sales and inventory management
 * Analytics & Reporting — detailed finance, academic, teacher performance, disciplinary, and attendance reporting
-* Security — multi-factor authentication (MFA) for admin accounts and automated database backups
+* Security — multi-factor authentication (MFA) for admin accounts, automated database backups, and encryption of sensitive personal data at rest
 
 
 

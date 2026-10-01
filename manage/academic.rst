@@ -59,6 +59,7 @@ Modifying Class Data
 		* **Campus**: select the campus/location where this class belongs
 		* **Group**: select the class group to add this class to
 		* **SBA Configuration**: specify the :ref:`SBA configuration <settings_sba>` to be used for this class
+		* **Subjects** *(sERP v2.0 and later)*: select which subjects are taught in this class. Gradebook, curriculum planning, and exam scheduling only offer subjects assigned here, keeping dropdowns limited to what's actually relevant for the class
 		* **SBA Assign. Staff**: select a list of staff/teachers who can record marks for student assessment in this class
 		* **Attendance Assign. Staff**: select a list of staff/teachers who can record attendance for this class
 		* **Canteen Payment Assign. Staff**: select a list of staff/teachers who can record attendance payments for this class
@@ -129,6 +130,10 @@ Subjects
 ********
 
 Subjects can be managed from the :ref:`main navigation menu <setup_layout>` by going to Academic -> Subjects.
+
+.. note::
+
+	In **sERP v2.0** and later, each class has its own list of assigned subjects (set from :ref:`Modifying Class Data <academic_edit_class>`). Curriculum planning, exam scheduling, and SBA entry for a class only offer subjects assigned to that class.
 
 Adding subjects
 ===============
@@ -427,6 +432,23 @@ Click on "Save Report" to update the information entered, or "Print" to print ou
 **HEADMASTER'S SIGNATURE**: a dotted line is provided on generated reports for headmaster's signature. sERP automatically appends the image for the :ref:`headmaster's signature <students_edit_campus>` if uploaded
 
 
+.. _academic_publish_reports:
+
+Publishing Reports
+===================
+
+.. note::
+
+	This feature is available in **sERP v2.0** and later.
+
+Terminal reports are saved as drafts, invisible to students and parents, until a class's reports are explicitly published. This gives staff a review window before results go out.
+
+1. From the "Students" pane, select the class whose reports are ready
+2. Click "Publish Reports" to make that class's reports visible on the student and parent portals
+
+If a correction is needed after publishing, click "Unpublish Reports" to withdraw them from view, make the correction, then publish again.
+
+
 
 .
 
@@ -540,6 +562,7 @@ Adding an Assignment
 		* **Description**: a brief overview of what the assignment covers
 		* **Instructions**: step-by-step instructions for students
 		* **Due Date**: the deadline for submissions
+		* **Attachment** *(sERP v2.0 and later)*: an optional file to accompany the assignment (e.g. a worksheet or reading)
 
 3. Click **Add Assignment** to save and publish
 

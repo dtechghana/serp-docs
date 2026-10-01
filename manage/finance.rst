@@ -192,6 +192,10 @@ Non-bill Payments
 5. Click "Record Payment"
 6. From the payment recorded confirmation page, click on "Generate Receipt" to prepare receipt for the payment
 
+.. note::
+
+	**sERP v2.0** and later can also automatically email a PDF copy of the receipt to the student's registered guardian email address when a payment is recorded, alongside the existing SMS confirmation. This is configured by Darrel Technologies as part of the :ref:`finance settings <settings_finance>` for your installation.
+
 
 .
 

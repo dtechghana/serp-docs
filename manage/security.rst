@@ -1,7 +1,7 @@
 Security Features
 #################
 
-sERP v1.11 introduces enhanced security features including multi-factor authentication for administrator accounts and automated database backups.
+sERP v1.11 introduces enhanced security features including multi-factor authentication for administrator accounts, automated database backups, and encryption of sensitive personal data at rest.
 
 
 .. _security_mfa:
@@ -84,3 +84,31 @@ A manual backup can be triggered at any time from the admin panel:
 .. tip::
 
 	For production deployments, consider storing automated backups in an off-site location (e.g. cloud storage bucket or a remote server) in addition to the local ``temp/backups/`` directory.
+
+
+.. _security_encryption:
+
+Data Encryption at Rest
+***********************
+
+Sensitive personal data is encrypted before it is stored in the database, rather than kept as plain text. This protects the information even if the underlying database is ever accessed directly, outside of the application.
+
+What Is Encrypted
+==================
+
+* Student and guardian contact details (phone numbers, addresses, email addresses)
+* Student health records (blood type, allergies, medical conditions, vaccination history, emergency contacts)
+* Student disciplinary records
+
+.. note::
+
+	Encryption is applied automatically whenever this data is saved or updated. There is nothing for school staff to configure — records are encrypted transparently and decrypted for display to authorised users within the application.
+
+.. note::
+
+	This feature is available in **sERP v1.11 and v2.0**.
+
+Password Storage
+=================
+
+User passwords are stored using the bcrypt hashing algorithm, a one-way hash that cannot be reversed to recover the original password. Accounts created under the previous hashing scheme are upgraded automatically, without disruption, the next time that user logs in.
