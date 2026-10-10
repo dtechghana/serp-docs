@@ -15,6 +15,18 @@ Layout & Overview
 	:alt: Layout and Navigation Overview
 
 
+.. _setup_global_search:
+
+Global Search
+=============
+
+.. note::
+
+	This feature is available in **sERP v2.0** and later.
+
+A search box in the top navigation bar lets you jump directly to a student, staff member, or payment receipt without navigating through menus. Start typing (minimum 2 characters) and matching results appear live, grouped by category. Results are scoped to what your account has permission to see — for example, a user without finance access will not see receipt results.
+
+
 
 
 .. _setup_initial:

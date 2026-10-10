@@ -248,6 +248,10 @@ Custom Grading Scales
 
 sERP ships with three built-in grading scales — ``bece``, ``wassce``, and ``primary`` — whose grade boundaries and remarks are stored in the database and can be edited through this interface. Changes take effect immediately on all terminal reports that use the corresponding Grade Type.
 
+.. note::
+
+	In **sERP v2.0** and later, this same interface also manages the ``cambridge``, ``preschool``, and ``montessori`` scales referenced in :ref:`academic_grading_scales`.
+
 The custom grading section can be accessed from the Academic Settings page by clicking on the wrench (|wrench_icon|) icon next to **Custom Grading Scales**.
 
 .. note::
@@ -287,6 +291,61 @@ From the scales list, click the delete (|delete_icon|) button for the scale you 
 
 .. warning::
 	Deleting a grading scale is irreversible. Deleting a built-in scale (bece, wassce, or primary) will cause the system to fall back to the hard-coded defaults for that grade type.
+
+
+.. _settings_learning_skills_items:
+
+Learning Skills Items
+=====================
+
+.. note::
+
+	This section applies to **sERP v2.0** and later only.
+
+These items make up the Learning Skills and Work Habits section of the :ref:`academic_ls_report`, grouped by category (e.g. Responsibility, Independent Work). There is only one set of Learning Skills items — it applies to every class using the Cambridge grading system, unlike Preschool Items below.
+
+Accessible from the Academic Settings page by clicking on the wrench (|wrench_icon|) icon next to **Learning Skills Items**.
+
+**Adding an item**
+
+1. From the "Add Item" pane, enter a **Category** (e.g. Responsibility) and its sort order, and an **Item** description and its sort order
+2. Click "Add Item"
+
+**Editing or deleting an item**
+
+From the items table, edit a row's fields directly and click its save button, or click the delete (|delete_icon|) button and confirm.
+
+
+.. _settings_preschool_items:
+
+Preschool Items
+================
+
+.. note::
+
+	This section applies to **sERP v2.0** and later only.
+
+These items make up the Achievement Area Assessment section of the :ref:`academic_preschool_report`. Unlike Learning Skills Items, each **Preschool Level** (e.g. N1, N2, K1 — schools define their own levels) has its own independent item set, since competency expectations differ by level.
+
+Accessible from the Academic Settings page by clicking on the wrench (|wrench_icon|) icon next to **Preschool Items**.
+
+**Managing levels**
+
+1. Select or add a level from the level selector at the top of the page — levels are free-text names you define, with a sort order
+2. A level that still has items assigned to it, or that a class's Preschool Level is still set to, cannot be deleted
+
+**Adding an item**
+
+1. With a level selected, from the "Add Item" pane enter an **Area** (e.g. Physical Development) and its sort order, and an **Item** description and its sort order
+2. Click "Add Item"
+
+**Editing or deleting an item**
+
+From the items table, edit a row's fields directly and click its save button, or click the delete (|delete_icon|) button and confirm.
+
+.. tip::
+
+	**Copy Level** copies every item from one level into another, empty level — a quick way to start a new level from an existing one rather than re-entering items from scratch. It only works when the destination level has no items yet.
 
 
 .. _settings_miscellaneous:

@@ -59,6 +59,8 @@ Modifying Class Data
 		* **Campus**: select the campus/location where this class belongs
 		* **Group**: select the class group to add this class to
 		* **SBA Configuration**: specify the :ref:`SBA configuration <settings_sba>` to be used for this class
+		* **Grading System** *(sERP v2.0 and later)*: select **SBA** (standard :ref:`Progress Reports <academic_terminal_reports>`, the default), **Cambridge Lower Secondary** (routes the class to the :ref:`academic_ls_report` screen instead), or **Preschool** (routes it to the :ref:`academic_preschool_report` screen instead)
+		* **Preschool Level** *(sERP v2.0 and later, only shown when Grading System is set to Preschool)*: the competency item set this class's Preschool Report uses — managed at :ref:`settings_preschool_items`
 		* **Subjects** *(sERP v2.0 and later)*: select which subjects are taught in this class. Gradebook, curriculum planning, and exam scheduling only offer subjects assigned here, keeping dropdowns limited to what's actually relevant for the class
 		* **SBA Assign. Staff**: select a list of staff/teachers who can record marks for student assessment in this class
 		* **Attendance Assign. Staff**: select a list of staff/teachers who can record attendance for this class
@@ -489,6 +491,72 @@ Select the following:
 .
 
 
+.. _academic_ls_report:
+
+Cambridge LS Report
+********************
+
+.. note::
+
+	This feature is available in **sERP v2.0** and later.
+
+Classes whose :ref:`Grading System <academic_edit_class>` is set to **Cambridge Lower Secondary** use a dedicated report entry screen instead of the standard :ref:`Progress Reports <academic_terminal_reports>` flow, covering both subject scores and the Cambridge Learning Skills and Work Habits rubric. Navigate to **Academic > Cambridge LS Report**.
+
+Entering a Report
+==================
+
+1. Select the **Class**, **Student**, **Term**, and **Year**, then click **Load**
+2. Under **Subjects Grade Assessment**, check each subject that applies and enter a **Class Score** (out of 40) and **Exam Score** (out of 60). The total and letter grade (A*–U, see :ref:`academic_grading_scales`) are computed live as you type
+3. Under **Learning Skills and Work Habits Assessment**, rate each item — grouped by category (e.g. Responsibility, Independent Work) — on a scale of 1 (Excellent) to 5 (Unsatisfactory)
+4. Click **Save All**
+
+.. tip::
+
+	Once a report has data saved, a **Print PDF** button appears next to the filter form.
+
+.. note::
+
+	The Learning Skills items themselves (the categories and rubric rows) are configured once for the whole school under :ref:`settings_learning_skills_items`, not per class.
+
+
+.. _academic_preschool_report:
+
+Preschool Report
+*****************
+
+.. note::
+
+	This feature is available in **sERP v2.0** and later.
+
+Classes whose :ref:`Grading System <academic_edit_class>` is set to **Preschool** use their own report entry screen, combining an achievement-area competency rubric with subject scores and narrative remarks. Navigate to **Academic > Preschool Report**.
+
+Each Preschool class is assigned a **Preschool Level** (e.g. N1, N2, K1 — schools define their own levels) from :ref:`Modifying Class Data <academic_edit_class>`, and the achievement items shown on the report depend on that class's level.
+
+Entering a Report
+==================
+
+1. Select the **Class**, **Student**, **Term**, and **Year**, then click **Load**
+2. Under **Achievement Area Assessment**, select one grade (A–E) per competency item, grouped by area
+3. Under the score table, check each subject that applies and enter a **Class Score** (out of 50) and **Exam Score** (out of 50); the total and remark are computed live
+4. **Attendance** is pulled in automatically from the :ref:`Attendance <student_attendance>` module for the selected term — there is no manual entry
+5. Fill in **Interests**, **Conduct**, **Facilitator's Comment**, and (if applicable) **Promoted To**
+6. Click **Save All**
+
+.. tip::
+
+	Once a report has data saved, a **Print PDF** button appears next to the filter form.
+
+.. note::
+
+	Achievement items are configured per Preschool Level under :ref:`settings_preschool_items` — unlike Learning Skills items, each level has its own independent item set.
+
+
+.
+
+
+.
+
+
 
 .. _academic_correspondence:
 
@@ -665,7 +733,12 @@ Grading Scales
 
    The following grading scales are available in **sERP v2.0** and later in addition to the existing BECE, WASSCE, and Primary scales.
 
-sERP supports multiple grading frameworks that can be configured per SBA profile. Schools with mixed programmes can assign a different grading scale to each class via **Settings > SBA Configuration**.
+sERP supports multiple grading frameworks. How a scale is assigned to a class depends on the scale:
+
+* **Montessori and custom scales** are selected via the **Grade Type** on that class's :ref:`SBA Configuration <settings_sba>`, and are used within the standard :ref:`Progress Reports <academic_terminal_reports>` flow.
+* **Cambridge Lower Secondary and Preschool** are instead selected via the **Grading System** field on :ref:`Modifying Class Data <academic_edit_class>`. A class set to one of these bypasses SBA Configuration entirely and uses its own dedicated report entry screen — see :ref:`academic_ls_report` and :ref:`academic_preschool_report`.
+
+All grade bands shown below — regardless of which path assigns them — are stored and edited the same way, via :ref:`settings_custom_grading`.
 
 Cambridge Lower Secondary (Cambridge LS)
 ========================================

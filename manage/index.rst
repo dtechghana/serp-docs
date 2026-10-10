@@ -6,7 +6,7 @@ This section of the guide covers the core modules and features available in sERP
 **Available Modules**
 
 * :doc:`/manage/students` — Student bio data, registration, attendance, scholarships, health records, and disciplinary records
-* :doc:`/manage/academic` — Classes, subjects, SBA, progress reports, assignments, curriculum, exam scheduling, and lesson plans
+* :doc:`/manage/academic` — Classes, subjects, SBA, progress reports (incl. Cambridge LS and Preschool report types), assignments, curriculum, exam scheduling, and lesson plans
 * :doc:`/manage/biometric` — Biometric attendance devices, user mapping, settings, and CSV import
 * :doc:`/manage/finance` — Fees, billing, payments, debtors, income & expenditure, and online payments
 * :doc:`/manage/banking` — Bank account management, transaction tracking, cheques, and deposits
