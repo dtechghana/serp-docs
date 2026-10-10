@@ -470,6 +470,85 @@ Recording Expenditure
 	sERP offers detailed reporting on both payments and expenditure. See our :ref:`Finance Reports <reports_finance>` guide for more information
 
 
+.. _finance_credits:
+
+Fee Credits / Advance Payments
+*******************************
+
+.. note::
+
+	This feature is available in **sERP v2.0** and later.
+
+Credits record an advance payment or credit balance for a student, separate from billed payments. Navigate to **Finance > Credits**.
+
+1. Enter the **Student ID**, **Amount**, an optional **Description**, and the **Year** and **Term** the credit applies to
+2. Click **Record Credit**
+
+The Credit History table shows every credit recorded, with a status of **Available** or **Applied**.
+
+.. note::
+
+	When the next bill is prepared for that student, any available credit for the matching year/term is automatically applied and the payable balance is reduced accordingly. Credits also appear on the student's :ref:`finance_statement`.
+
+
+.. _finance_refunds:
+
+Refunds
+*******
+
+.. note::
+
+	This feature is available in **sERP v2.0** and later.
+
+Refunds record money returned to a student/parent against their account. Navigate to **Finance > Refunds**.
+
+1. Enter the **Student ID**, **Amount**, and a **Reason for Refund** (required)
+2. Select the **Year** and **Term**
+3. Click **Record Refund**
+
+The Refund History table shows every refund recorded, with who authorised it and when. Refunds also appear on the student's :ref:`finance_statement`.
+
+
+.. _finance_statement:
+
+Statement of Accounts
+**********************
+
+.. note::
+
+	This feature is available in **sERP v2.0** and later.
+
+The Statement of Accounts shows a student's complete financial history — payments, credits, refunds, and write-offs — in one chronological view with a running net balance. Navigate to **Finance > Statement**.
+
+1. Select a **Class**, then a **Student**
+2. Optionally narrow the statement to a **From Date** / **To Date** range
+3. Click **Generate Statement**
+
+Each line shows the date, type (Payment, Credit, Refund, or Write-off), description, amount, and reference, with payments and credits adding to the balance and refunds/write-offs subtracting from it. Click **Print** to print the statement.
+
+
+.. _finance_writeoffs:
+
+Bill Write-offs
+****************
+
+.. note::
+
+	This feature is available in **sERP v2.0** and later.
+
+Write-offs waive an outstanding balance on a student's bill without altering their payment history. Navigate to **Finance > Write-offs**.
+
+.. warning::
+
+	Write-offs are permanent audit records and cannot be undone. Recording a write-off requires full administrator access.
+
+1. Enter the **Student ID**, **Amount Written Off**, and a **Reason / Justification** (required)
+2. Select the **Year** and **Term**
+3. Click **Record Write-off** and confirm
+
+The Write-off Audit Log shows every write-off recorded, with who authorised it and when. Write-offs also appear on the student's :ref:`finance_statement`.
+
+
 .. _finance_online_payments:
 
 Online Payments 

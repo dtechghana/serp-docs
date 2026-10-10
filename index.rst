@@ -14,7 +14,7 @@ Features
 
 * Student information — bio data, class/attendance information, health records, disciplinary records, and academic reports
 * HR — staff records management and tax/regulatory compliance (PAYE, SSNIT, Trustee)
-* Finance — billing, payments/collections, debtors, online card payments (`Paystack <https://paystack.com>`_ in v2.0 and later, Emergent Payments in earlier versions), USSD mobile money, banking and expenditure management
+* Finance — billing, payments/collections, debtors, credits, refunds, write-offs, statement of accounts, online card payments (`Paystack <https://paystack.com>`_ in v2.0 and later, Emergent Payments in earlier versions), USSD mobile money, banking and expenditure management
 * Academic Management — assignments, exam scheduling, curriculum planning, lesson plans, progress reports, and specialized Cambridge Lower Secondary / Preschool report types (v2.0 and later)
 * Messaging — bulk and individual SMS, in-app two-way messaging between staff, students, and parents
 * Communication — parent-teacher conferences, feedback, and class/subject discussion forums
