@@ -117,6 +117,25 @@ Custom salary deductions (e.g. loans, advances, union dues) can be configured pe
 Deductions are applied automatically in the next payroll run. Remove a deduction using the delete icon (|delete_icon|) once it is no longer applicable.
 
 
+.. _hr_salary_additions:
+
+Salary Additions
+****************
+
+.. note::
+
+   This feature is available in **sERP v2.0** and later.
+
+Custom allowances (e.g. transport, housing) can be added to staff gross pay, applied to one or more staff members at once.
+
+1. Navigate to **HR > Salary Additions**
+2. Enter the **Allowance Name** and **Amount**
+3. Under **Affected Staff**, check each staff member the allowance applies to, or check **Select All**
+4. Click **Add Allowance**
+
+The Current Allowances table shows each allowance, its amount, and how many staff it applies to. Additions are applied automatically in the next payroll run, same as deductions. Remove an allowance using the delete icon once it is no longer applicable.
+
+
 .. _hr_bank_advice:
 
 Bank Advice
@@ -193,6 +212,10 @@ Enter a gross salary amount and click **Calculate** to see the computed taxable 
 
 Staff Attendance
 ****************
+
+.. note::
+
+   This feature is available in **sERP v2.0** and later.
 
 Staff Attendance lets you record daily attendance for every staff member. Access it from **HR > Staff Attendance**.
 
