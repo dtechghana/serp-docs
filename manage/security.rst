@@ -9,13 +9,13 @@ sERP v1.11 introduces enhanced security features including multi-factor authenti
 Multi-Factor Authentication (MFA)
 **********************************
 
-Administrator accounts are required to complete two-factor authentication (2FA) at every login. After entering the correct username and password, a 6-digit One-Time Password (OTP) is sent to the administrator's registered mobile number via SMS.
+Every account is required to complete two-factor authentication (2FA) at login, with the exception of a small set of top-level accounts described below. After entering the correct username and password, a 6-digit One-Time Password (OTP) is sent to the account's registered mobile number via SMS.
 
 MFA Login Process
 =================
 
 1. Enter your username and password on the login page and click **Login**
-2. sERP verifies your credentials. If your account has administrator access (level 100), you are redirected to the OTP verification page
+2. sERP verifies your credentials. Unless your account is exempt (see below), you are redirected to the OTP verification page
 3. Check your registered mobile number for the SMS containing your 6-digit OTP
 4. Enter the OTP on the verification screen
 5. Click **Verify OTP** to complete login
@@ -24,23 +24,38 @@ MFA Login Process
 
 	OTPs expire after **5 minutes**. If the OTP expires before you enter it, return to the login page and log in again to receive a fresh OTP.
 
+Which Accounts Are Exempt
+===========================
+
+A small number of top-level accounts always log in with username and password only, and are never prompted for an OTP:
+
+* In **sERP v1.11**, this is the **Administrator/Director** role, plus the vendor support account.
+* In **sERP v2.0**, this is the school's own super-admin account (the built-in ``admin`` login), plus the vendor support account.
+
+Every other account — including other Admin/HR Account Manager roles below Administrator/Director in v1.11, and campus administrators in v2.0 — is required to complete MFA.
+
 Configuring a Mobile Number for MFA
 =====================================
 
-Administrator accounts must have a mobile number registered in order to receive OTP codes. This is managed from the **Change Password** page.
+An account must have a mobile number registered in order to receive OTP codes. This is managed from the **Change Password** page.
 
-1. Log in as the administrator
+1. Log in to the account
 2. From the welcome menu, click **Change Password**
 3. In the **MFA Phone Number** pane, enter or update the mobile number
 4. Click **Save Phone**
 
 .. warning::
 
-	If no mobile number is configured for an administrator account, the OTP is displayed on-screen as a temporary fallback. This is intended for development and initial setup only. Always ensure a valid mobile number is configured before going live.
+	If no mobile number is configured for an account that requires MFA, the OTP is displayed on-screen as a temporary fallback. This is intended for development and initial setup only. Always ensure a valid mobile number is configured before going live.
+
+Turning MFA Off School-Wide
+==============================
+
+One of the exempt top-level accounts described above can turn MFA off for the whole school, from **Settings > SMS Settings**, under **Enforce two-factor authentication at login?**.
 
 .. note::
 
-	MFA is applied to administrator accounts only. Standard staff, teacher, student, and parent accounts log in with username and password only.
+	Turning this off means any account with no phone number on file can still log in with username and password alone — useful while you're still populating phone numbers for a new rollout. Turn it back on once every account has a valid phone number. The exempt top-level accounts themselves are never affected either way, whether this is on or off.
 
 
 .. _security_backups:

@@ -52,6 +52,10 @@ To register a new staff member in sERP:
 		* **SSNIT Number**: Social Security number (required for SSNIT contributions)
 		* **SSNIT Contributor**: toggle whether SSNIT deductions apply to this staff member
 
+	.. note::
+
+		In **sERP v2.0** and later, for schools with more than one campus, a **Campus** field also appears — select which campus this staff member belongs to.
+
 3. Click **Add Staff** to save
 
 .. tip::
@@ -65,6 +69,10 @@ Staff List
 **********
 
 Navigate to **HR > Staff List** to view all registered staff members. The list shows each staff member's ID, name, department, designation, and action buttons.
+
+.. note::
+
+	In **sERP v2.0** and later, a campus-restricted user only sees staff belonging to their own campus here. A Multi-Campus Administrator sees every campus's staff.
 
 Click a staff member's name or the info icon (|info_icon|) to view their full profile, including personal details, employment details, payroll history, and uploaded documents.
 
