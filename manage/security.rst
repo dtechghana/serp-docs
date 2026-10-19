@@ -9,7 +9,7 @@ sERP v1.11 introduces enhanced security features including multi-factor authenti
 Multi-Factor Authentication (MFA)
 **********************************
 
-Administrator accounts (access level 1) are required to complete two-factor authentication (2FA) at every login. After entering the correct username and password, a 6-digit One-Time Password (OTP) is sent to the administrator's registered mobile number via SMS.
+Administrator accounts are required to complete two-factor authentication (2FA) at every login. After entering the correct username and password, a 6-digit One-Time Password (OTP) is sent to the administrator's registered mobile number via SMS.
 
 MFA Login Process
 =================

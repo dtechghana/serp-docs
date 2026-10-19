@@ -5,7 +5,7 @@ The Teacher Portal provides teaching staff with a dedicated interface for managi
 
 .. note::
 
-	Access to the Teacher Portal requires a staff user account with the **Teacher Portal** access role (role 50) assigned by an administrator, or an administrator account (access level 100). See :doc:`/setup/users` for instructions on assigning roles.
+	Access to the Teacher Portal requires a staff user account with the **Teacher Portal** access role assigned by an administrator, or an administrator account. See :doc:`/setup/users` for instructions on assigning roles.
 
 The Teacher Portal is accessed at ``/teacherportal`` on your sERP installation.
 

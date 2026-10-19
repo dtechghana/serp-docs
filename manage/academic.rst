@@ -365,7 +365,7 @@ Recording Student Assessment
 Deleting SBA Records (Admin)
 =============================
 
-Admin users (access level 1 or super admin) can delete SBA records from the Continuous Assessment pane.
+Admin users (or super admin) can delete SBA records from the Continuous Assessment pane.
 
 * **Delete individual record**: click the delete (|delete_icon|) button on the row for the student whose record you wish to remove. The corresponding terminal report entry is also removed.
 * **Delete all marks**: click "Delete All Marks" at the bottom of the table to remove all SBA records for the currently selected class, subject, and term. All corresponding terminal report entries are also removed.

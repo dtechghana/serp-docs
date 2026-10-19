@@ -14,7 +14,7 @@ Access the Library module from **Library** in the main navigation menu.
 Book Categories
 ***************
 
-Book categories are used to organise books in the library catalogue. Requires the **Library (Categories)** access role (role 28).
+Book categories are used to organise books in the library catalogue. Requires the **Library (Categories)** access role.
 
 Navigate to **Library > Book Categories** to manage categories.
 
@@ -36,7 +36,7 @@ From the category list, click the delete (|delete_icon|) button for the category
 Books
 *****
 
-The Books section is the main catalogue of all books in the library. Requires the **Library (Books)** access role (role 29).
+The Books section is the main catalogue of all books in the library. Requires the **Library (Books)** access role.
 
 Navigate to **Library > Books** to manage books.
 
