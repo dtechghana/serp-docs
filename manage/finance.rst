@@ -166,6 +166,14 @@ Bill payments
 	* **Payment Type**: the mode of payment
 	* **Remarks**: enter a description for the payment being recorded
 
+.. note::
+
+	The "Apply to Billed Item(s)" list only shows a student's fee-type and custom-bill items once a bill has actually been prepared for that term via :ref:`Prepare Bill <finance_prepare_bill>`. Arrears carried over from an already-billed prior term are unaffected and always show, regardless of whether the current term's own bill has been prepared yet.
+
+.. note::
+
+	For **Cheque**, the Bank field identifies the payer's own bank, from a general reference list, for reconciliation purposes. For **Bank Deposit**, the Bank field instead selects one of the school's own accounts, set up under :ref:`Banking <banking_accounts>` — the payment is automatically posted there too, and that account's balance is kept up to date. If no bank account has been set up yet, a warning is shown linking to the Banking module. See :ref:`banking_finance_integration` for details.
+
 5. Click "Record Payment"
 6. From the payment recorded confirmation page, click on "Generate Receipt" to prepare receipt for the payment
 
@@ -188,6 +196,10 @@ Non-bill Payments
 	* **Date paid**: the date in which the payment was made. Defaults to current date
 	* **Payment Type**: the mode of payment
 	* **Remarks**: enter a description for the payment being recorded
+
+.. note::
+
+	The Bank field behaves the same way here as for Bill Payments above — Cheque identifies the payer's bank, while Bank Deposit selects one of the school's own accounts and auto-posts the payment there. See :ref:`banking_finance_integration`.
 
 5. Click "Record Payment"
 6. From the payment recorded confirmation page, click on "Generate Receipt" to prepare receipt for the payment
@@ -265,6 +277,10 @@ Admin and other authorized users may cancel a payment. To cancel a payment:
 2. Review the payment details to verify
 3. In the box beneath "Reason for cancelling Payment", enter the reason why you wish to cancel the payment
 4. Click "Cancel Payment"
+
+.. note::
+
+	Cancelling a payment made by Bank Deposit automatically reverses the amount from the bank account it was originally posted to — see :ref:`banking_finance_integration`.
 
 
 .
@@ -383,6 +399,8 @@ Navigate to **Store & Inventory > Sales Report** to view sales by date range, it
 
 .
 
+.. _finance_income_expenditure:
+
 
 Income and Expenditure
 **********************
@@ -453,11 +471,10 @@ Recording Expenditure
 	* Date
 	* Amount
 	* Expenditure Category
-	* **Payment Type**: select the mode of payment — Cash, Cheque, Bank Transfer, or Mobile Money
+	* **Payment Type**: select the mode of payment — Cash, Cheque, Bank Deposit, Mobile Money, or Other
 
 		.. note::
-			* Selecting **Cheque** reveals an additional "Cheque Number" field
-			* Selecting **Bank Transfer** reveals an additional "Bank" field
+			* Selecting **Cheque** or **Bank Deposit** reveals a "Bank Account" field, listing the school's own accounts set up under :ref:`Banking <banking_accounts>`. Unlike a fee payment, both options mean the same thing here — an expenditure cheque is one the school writes itself, drawn on its own account, not one received from a payer — so there's a single Bank Account field rather than two different ones. If no bank account has been set up yet, a warning links to the Banking module. Selecting **Cheque** additionally reveals a "Cheque Number" field.
 			* Selecting **Mobile Money** reveals an additional "MoMo Reference / Transaction ID" field for recording the transaction reference
 
 	* Expenditure Description
@@ -558,7 +575,7 @@ In addition to USSD mobile money payments, sERP supports online card payments. T
 
 .. note::
 
-	In **sERP v2.0** and later, online payments are processed through `Paystack <https://paystack.com>`_. There is no payment method selection step — submitting the form redirects to Paystack's own hosted checkout page, where the payer chooses card, mobile money, or bank transfer. Requires the :ref:`Online Payment Gateway <settings_payment_gateway>` to be configured with valid Paystack credentials first.
+	In **sERP v2.0** and later, online payments are processed through either `Paystack <https://paystack.com>`_ or `Flutterwave <https://flutterwave.com>`_ — whichever gateway is configured as active under :ref:`Online Payment Gateway <settings_payment_gateway>`. There is no payment method selection step — submitting the form redirects to the active gateway's own hosted checkout page, where the payer chooses card, mobile money, or bank transfer.
 
 Initiating an Online Payment (Admin)
 ======================================
@@ -630,7 +647,17 @@ Adding an Asset
 
 1. Navigate to **Fixed Assets > Register** and click **Add Asset**.
 2. Complete the form: name, category, department (optional), location, serial number, supplier, acquisition date, cost, salvage value, useful life, and depreciation method (Straight-Line or Declining Balance).
-3. The asset code is auto-generated (e.g. ``FA-ICT-0001``).
+3. Choose a **Payment Record** option:
+
+	* **Record a new payment now** — captures payment type, bank account, and cheque number as needed, and automatically creates an :ref:`Expenditure <finance_income_expenditure>` entry for the purchase
+	* **Link an existing expenditure record** — if the purchase was already recorded separately in Expenditure before the asset itself was added to the register
+	* **No expenditure record** — for an asset that cost the school nothing, e.g. a donation
+
+4. The asset code is auto-generated (e.g. ``FA-ICT-0001``).
+
+.. note::
+
+	Editing an asset's name, cost, or acquisition date later automatically updates its linked expenditure record to match, if it has one. An asset's linked expenditure record, if any, is shown on both its detail view and its edit page. Re-linking to a different expenditure record isn't supported through Edit — only Add Asset can establish the link in the first place.
 
 Depreciation
 ============

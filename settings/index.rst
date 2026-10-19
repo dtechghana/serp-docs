@@ -573,15 +573,19 @@ Online Payment Gateway
 
 	This section applies to **sERP v2.0** and later only — v1.11 has no online payment gateway settings.
 
-Configures the credentials sERP uses to process :ref:`online payments <finance_online_payments>` via `Paystack <https://paystack.com>`_. Accessible from the Finance Settings page by clicking on "Online Payment Gateway".
+Configures the credentials sERP uses to process :ref:`online payments <finance_online_payments>` via either `Paystack <https://paystack.com>`_ or `Flutterwave <https://flutterwave.com>`_. Accessible from the Finance Settings page by clicking on "Online Payment Gateway".
 
-1. Sign up for a Paystack account (or use an existing one) and retrieve your **Public Key** and **Secret Key** from the Paystack dashboard
-2. Enter the **Public Key** and **Secret Key** in the respective fields
+1. Select the **Active Gateway** — Paystack, Flutterwave, or "None" to disable online payments entirely
+2. Depending on the gateway selected, enter the matching credentials from that gateway's own dashboard:
+
+	* **Paystack**: **Public Key** and **Secret Key**
+	* **Flutterwave**: **Public Key**, **Secret Key**, and **Secret Hash** (a value you choose yourself, used to verify that webhook notifications genuinely came from Flutterwave)
+
 3. Click "Save"
 
 .. note::
 
-	The Secret Key is encrypted at rest. Once saved, the field shows a placeholder instead of the actual key — leave it blank when saving other changes to keep the existing key, or enter a new one to replace it.
+	Only one gateway can be active at a time. Secret keys/hashes are encrypted at rest. Once saved, those fields show a placeholder instead of the actual value — leave a field blank when saving other changes to keep its existing value, or enter a new one to replace it.
 
 
 .. _settings_email_receipts:

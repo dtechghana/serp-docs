@@ -3,7 +3,7 @@ Banking
 
 The Banking module allows you to manage the school's bank accounts and track financial transactions — including cheque payments, deposits, and cash transfers — directly within sERP.
 
-Access the Banking module from **Finance > Banking** in the main navigation menu. Requires the **Banking** access role (role 51).
+Access the Banking module from **Finance > Banking** in the main navigation menu. Requires the **Banking** access role.
 
 .. |edit_icon| image:: ../images/pencil.png
 .. |delete_icon| image:: ../images/trash.png
@@ -82,3 +82,21 @@ From the transaction toolbar, use:
 
 * The **Print Statement** icon to print the current transaction list
 * The **Export Statement** icon to download a PDF of the statement
+
+
+.. _banking_finance_integration:
+
+Integration with Finance
+*************************
+
+Bank Deposit payments and expenditure recorded elsewhere in sERP post directly to the Banking module, rather than needing to be re-entered here:
+
+* A **Bank Deposit** fee payment (see :ref:`finance_payment`) credits the selected account automatically when recorded, and reverses that credit automatically if the payment is later cancelled.
+* An **Expenditure** entry (see :ref:`Income and Expenditure <finance_income_expenditure>`) paid by Cheque or Bank Deposit debits the selected account automatically.
+* A :ref:`Fixed Asset <finance_fixed_assets>` purchase, when recorded with a new Cheque or Bank Deposit payment, debits the selected account the same way, via the expenditure entry it creates.
+
+These automatically-posted entries appear in the account's Transaction Tracking view alongside manually-entered cheques, deposits, and transfers, and are included in the account's running balance.
+
+.. note::
+
+	Bank Deposit fee payments and Expenditure both use this module's own list of accounts for their "Bank" field. For a fee payment specifically, this is distinct from the **Cheque** payment type's own "Bank" field, which instead identifies the *payer's* bank from a general reference list, since a cheque received from a parent isn't drawn on one of the school's own accounts.
