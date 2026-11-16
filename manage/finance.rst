@@ -310,7 +310,7 @@ This section provides information about using sERP's debtors list feature, which
 	* **Withdrawn Students**: optionally, select whether to include or exclude withdrawn students from the list, or only show withdrawn students
 
 3. Click "List Debtors"
-
+4. To narrow the generated list further, use the **Search by Student Name** field above the table — it filters the already-listed debtors as you type, without reloading the list
 
 .
 

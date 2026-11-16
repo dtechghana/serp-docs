@@ -38,7 +38,7 @@ Navigate to **Finance > Fees** to view the current term's fees. This shows:
 
 **Viewing a Bill**
 
-Click **View Bill** to open a printable version of the current term's bill.
+Click **View Bill** to open a printable version of the current term's bill. If the school has USSD mobile money payments activated, the bill also shows the dial code and the student's payment reference alongside the amount due.
 
 **Fee Payment History**
 

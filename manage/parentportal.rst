@@ -48,7 +48,7 @@ Navigate to **Finance > Fees** to view the current term's fees for a ward. This 
 
 **Viewing a Bill**
 
-Click **View Bill** to open a printable version of the ward's bill for the current term.
+Click **View Bill** to open a printable version of the ward's bill for the current term. If the school has USSD mobile money payments activated, the bill also shows the dial code and the ward's payment reference alongside the amount due.
 
 **Fee Payment History**
 
