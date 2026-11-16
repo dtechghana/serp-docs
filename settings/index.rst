@@ -625,6 +625,7 @@ SMS Settings
 	* **Send notification to parent on student registration?**: toggle to determine whether or not sERP sends an SMS to the parent/guardian when a new student is registered
 	* **Send absence notification to parent?**: toggle to determine whether or not sERP sends notification to parent/guardian when their ward is marked absent
 	* **Default Sender ID**: this is the default value that will appear as the sender of all automated SMS notifications. "SchoolERPGH" will be used as the sender ID if not specified
+	* **Enforce two-factor authentication at login?**: school-wide MFA toggle — see :ref:`Multi-Factor Authentication <security_mfa>` for details
 
 Setting the API ID and Key
 ==========================
