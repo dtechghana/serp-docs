@@ -22,7 +22,7 @@ Global Search
 
 .. note::
 
-	This feature is available in **sERP v2.0** and later.
+	This feature is available in **sERP v2**.
 
 A search box in the top navigation bar lets you jump directly to a student, staff member, or payment receipt without navigating through menus. Start typing (minimum 2 characters) and matching results appear live, grouped by category. Results are scoped to what your account has permission to see — for example, a user without finance access will not see receipt results.
 
@@ -88,7 +88,7 @@ The student ID prefix has to be configured in order for sERP to be able to auto 
 	.. image:: ../images/student_prefix.png
 		:alt: Student ID Prefix
 
-* **sERP v2.0 and later**: prefix + admission year + incremental number, e.g. ``HGST/2026/001``. The incremental number is a single running count per campus — it does not reset each year and does not depend on class code.
+* **sERP v2**: prefix + admission year + incremental number, e.g. ``HGST/2026/001``. The incremental number is a single running count per campus — it does not reset each year and does not depend on class code.
 
 .. |wrench_icon| image:: ../images/wrench.png
 
@@ -101,7 +101,7 @@ To configure the student ID prefix:
 
 .. note::
 
-	In **sERP v2.0** and later, schools with more than one campus configure a separate student ID prefix per campus instead of one school-wide prefix — see :ref:`Modifying Campus Data <students_edit_campus>`. The steps above configure a single school-wide prefix, used in v1.11.
+	In **sERP v2**, schools with more than one campus configure a separate student ID prefix per campus instead of one school-wide prefix — see :ref:`Modifying Campus Data <students_edit_campus>`. The steps above configure a single school-wide prefix, used in v1.11.
 
 
 .
@@ -192,7 +192,7 @@ Add Classes
 		* **Campus**: select the campus/location where this class belongs
 		* **Division**: select the division this class belongs
 		* **Class Teacher**: select and assign a class teacher for this class. *(This requires a user account to have been created, and assigned to a staff in sERP)*
-		* **Class Code**: enter a code for this class. (*Required for* :ref:`student ID generation <setup_student_prefix>` **in sERP v1.11**; not used for this in v2.0 and later, where the ID's incremental number runs per campus instead)
+		* **Class Code**: enter a code for this class. (*Required for* :ref:`student ID generation <setup_student_prefix>` **in sERP v1.11**; not used for this in v2, where the ID's incremental number runs per campus instead)
 
 	.. tip::
 		You can add multiple classes at a go by clicking on the drop down arrow ( |drop_arrow| ) in the "Quick Add Class(es)" pane

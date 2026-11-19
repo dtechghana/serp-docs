@@ -5,7 +5,7 @@ The following sections provides information surrounding the management of financ
 
 .. note::
 
-	In **sERP v2.0** and later, for schools with more than one campus, a staff user restricted to a single campus (see :ref:`Add User <users_add_user>`) only sees and manages fees, bills, reminders, and debtors belonging to their own campus throughout this module — not just via the optional "By Campus" filters described below.
+	In **sERP v2**, for schools with more than one campus, a staff user restricted to a single campus (see :ref:`Add User <users_add_user>`) only sees and manages fees, bills, reminders, and debtors belonging to their own campus throughout this module — not just via the optional "By Campus" filters described below.
 
 .. |edit_icon| image:: ../images/pencil.png
 .. |delete_icon| image:: ../images/trash.png
@@ -206,7 +206,7 @@ Non-bill Payments
 
 .. note::
 
-	**sERP v2.0** and later can also automatically email a PDF copy of the receipt to the student's registered guardian email address when a payment is recorded, alongside the existing SMS confirmation. This is configured by Darrel Technologies as part of the :ref:`finance settings <settings_finance>` for your installation.
+	**sERP v2** can also automatically email a PDF copy of the receipt to the student's registered guardian email address when a payment is recorded, alongside the existing SMS confirmation. This is configured by Darrel Technologies as part of the :ref:`finance settings <settings_finance>` for your installation.
 
 
 .
@@ -494,7 +494,7 @@ Fee Credits / Advance Payments
 
 .. note::
 
-	This feature is available in **sERP v2.0** and later.
+	This feature is available in **sERP v2**.
 
 Credits record an advance payment or credit balance for a student, separate from billed payments. Navigate to **Finance > Credits**.
 
@@ -515,7 +515,7 @@ Refunds
 
 .. note::
 
-	This feature is available in **sERP v2.0** and later.
+	This feature is available in **sERP v2**.
 
 Refunds record money returned to a student/parent against their account. Navigate to **Finance > Refunds**.
 
@@ -533,7 +533,7 @@ Statement of Accounts
 
 .. note::
 
-	This feature is available in **sERP v2.0** and later.
+	This feature is available in **sERP v2**.
 
 The Statement of Accounts shows a student's complete financial history — payments, credits, refunds, and write-offs — in one chronological view with a running net balance. Navigate to **Finance > Statement**.
 
@@ -551,7 +551,7 @@ Bill Write-offs
 
 .. note::
 
-	This feature is available in **sERP v2.0** and later.
+	This feature is available in **sERP v2**.
 
 Write-offs waive an outstanding balance on a student's bill without altering their payment history. Navigate to **Finance > Write-offs**.
 
@@ -575,7 +575,7 @@ In addition to USSD mobile money payments, sERP supports online card payments. T
 
 .. note::
 
-	In **sERP v2.0** and later, online payments are processed through either `Paystack <https://paystack.com>`_ or `Flutterwave <https://flutterwave.com>`_ — whichever gateway is configured as active under :ref:`Online Payment Gateway <settings_payment_gateway>`. There is no payment method selection step — submitting the form redirects to the active gateway's own hosted checkout page, where the payer chooses card, mobile money, or bank transfer.
+	In **sERP v2**, online payments are processed through either `Paystack <https://paystack.com>`_ or `Flutterwave <https://flutterwave.com>`_ — whichever gateway is configured as active under :ref:`Online Payment Gateway <settings_payment_gateway>`. There is no payment method selection step — submitting the form redirects to the active gateway's own hosted checkout page, where the payer chooses card, mobile money, or bank transfer.
 
 Initiating an Online Payment (Admin)
 ======================================
@@ -583,7 +583,7 @@ Initiating an Online Payment (Admin)
 1. Navigate to **Finance > Online Payments**
 2. Search for and select the student
 3. Enter the payment amount
-4. Select the payment method (v1.11 only — see note above for v2.0 and later)
+4. Select the payment method (v1.11 only — see note above for v2)
 5. Click **Initiate Payment**
 
 A unique payment reference is generated and the payment request is sent to the payment gateway. The status updates automatically once the gateway confirms the transaction.
@@ -631,7 +631,7 @@ Fixed Assets Register
 
 .. note::
 
-   This feature is available in **sERP v2.0** and later.
+   This feature is available in **sERP v2**.
 
 The Fixed Assets Register tracks every physical asset owned by the school — from buildings and vehicles to ICT equipment and laboratory apparatus. Each asset is assigned a unique code, linked to a category and optionally a department, and is subject to a computed depreciation schedule.
 
@@ -682,7 +682,7 @@ Double-Entry Accounting
 
 .. note::
 
-   This feature is available in **sERP v2.0** and later.
+   This feature is available in **sERP v2**.
 
 sERP includes a complete double-entry bookkeeping system. Financial transactions from fee payments, POS/store sales, canteen, and payroll are posted to the general ledger automatically, with manual journal entry also supported.
 

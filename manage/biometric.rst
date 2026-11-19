@@ -3,7 +3,7 @@ Biometric Attendance
 
 .. note::
 
-   This feature is available in **sERP v2.1** and later.
+   This feature is available in **sERP v2**.
 
 sERP can capture student and staff attendance automatically from biometric devices — fingerprint, facial recognition, or card-based terminals — in addition to manual entry (see :ref:`Student Attendance <student_attendance>` and :ref:`Staff Attendance <hr_staff_attendance>`). Access biometric administration from the main navigation menu under **Biometric**.
 

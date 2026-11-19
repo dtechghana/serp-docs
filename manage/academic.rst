@@ -31,7 +31,7 @@ Add Class
 		* **Campus**: select the campus/location where this class belongs
 		* **Division**: select the division this class belongs
 		* **Class Teacher**: select and assign a class teacher for this class. *(This requires a user account to have been created, and assigned to a staff in sERP)*
-		* **Class Code**: enter a code for this class. (*Required for* :ref:`student ID generation <setup_student_prefix>` **in sERP v1.11**; not used for this in v2.0 and later, where the ID's incremental number runs per campus instead)
+		* **Class Code**: enter a code for this class. (*Required for* :ref:`student ID generation <setup_student_prefix>` **in sERP v1.11**; not used for this in v2, where the ID's incremental number runs per campus instead)
 
 	.. tip::
 		You can add multiple classes at a go by clicking on the drop down arrow ( |drop_arrow| ) in the "Quick Add Class(es)" pane
@@ -54,14 +54,14 @@ Modifying Class Data
 
 	.. note::
 		* **Class Name**: enter the name of the class as you'd like it to appear
-		* **Class Code**: enter a code for this class (*required for* :ref:`student ID generation <setup_student_prefix>` **in sERP v1.11**; not used for this in v2.0 and later). Changes have no effect on existing student ID
+		* **Class Code**: enter a code for this class (*required for* :ref:`student ID generation <setup_student_prefix>` **in sERP v1.11**; not used for this in v2). Changes have no effect on existing student ID
 		* **Academic Calendar**: select the academic calendar category for the class
 		* **Campus**: select the campus/location where this class belongs
 		* **Group**: select the class group to add this class to
 		* **SBA Configuration**: specify the :ref:`SBA configuration <settings_sba>` to be used for this class
-		* **Grading System** *(sERP v2.0 and later)*: select **SBA** (standard :ref:`Progress Reports <academic_terminal_reports>`, the default), **Cambridge Lower Secondary** (routes the class to the :ref:`academic_ls_report` screen instead), or **Preschool** (routes it to the :ref:`academic_preschool_report` screen instead)
-		* **Preschool Level** *(sERP v2.0 and later, only shown when Grading System is set to Preschool)*: the competency item set this class's Preschool Report uses — managed at :ref:`settings_preschool_items`
-		* **Subjects** *(sERP v2.0 and later)*: select which subjects are taught in this class. Gradebook, curriculum planning, and exam scheduling only offer subjects assigned here, keeping dropdowns limited to what's actually relevant for the class
+		* **Grading System** *(sERP v2)*: select **SBA** (standard :ref:`Progress Reports <academic_terminal_reports>`, the default), **Cambridge Lower Secondary** (routes the class to the :ref:`academic_ls_report` screen instead), or **Preschool** (routes it to the :ref:`academic_preschool_report` screen instead)
+		* **Preschool Level** *(sERP v2, only shown when Grading System is set to Preschool)*: the competency item set this class's Preschool Report uses — managed at :ref:`settings_preschool_items`
+		* **Subjects** *(sERP v2)*: select which subjects are taught in this class. Gradebook, curriculum planning, and exam scheduling only offer subjects assigned here, keeping dropdowns limited to what's actually relevant for the class
 		* **SBA Assign. Staff**: select a list of staff/teachers who can record marks for student assessment in this class
 		* **Attendance Assign. Staff**: select a list of staff/teachers who can record attendance for this class
 		* **Canteen Payment Assign. Staff**: select a list of staff/teachers who can record attendance payments for this class
@@ -135,7 +135,7 @@ Subjects can be managed from the :ref:`main navigation menu <setup_layout>` by g
 
 .. note::
 
-	In **sERP v2.0** and later, each class has its own list of assigned subjects (set from :ref:`Modifying Class Data <academic_edit_class>`). Curriculum planning, exam scheduling, and SBA entry for a class only offer subjects assigned to that class.
+	In **sERP v2**, each class has its own list of assigned subjects (set from :ref:`Modifying Class Data <academic_edit_class>`). Curriculum planning, exam scheduling, and SBA entry for a class only offer subjects assigned to that class.
 
 Adding subjects
 ===============
@@ -441,7 +441,7 @@ Publishing Reports
 
 .. note::
 
-	This feature is available in **sERP v2.0** and later.
+	This feature is available in **sERP v2**.
 
 Terminal reports are saved as drafts, invisible to students and parents, until a class's reports are explicitly published. This gives staff a review window before results go out.
 
@@ -498,7 +498,7 @@ Cambridge LS Report
 
 .. note::
 
-	This feature is available in **sERP v2.0** and later.
+	This feature is available in **sERP v2**.
 
 Classes whose :ref:`Grading System <academic_edit_class>` is set to **Cambridge Lower Secondary** use a dedicated report entry screen instead of the standard :ref:`Progress Reports <academic_terminal_reports>` flow, covering both subject scores and the Cambridge Learning Skills and Work Habits rubric. Navigate to **Academic > Cambridge LS Report**.
 
@@ -526,7 +526,7 @@ Preschool Report
 
 .. note::
 
-	This feature is available in **sERP v2.0** and later.
+	This feature is available in **sERP v2**.
 
 Classes whose :ref:`Grading System <academic_edit_class>` is set to **Preschool** use their own report entry screen, combining an achievement-area competency rubric with subject scores and narrative remarks. Navigate to **Academic > Preschool Report**.
 
@@ -630,7 +630,7 @@ Adding an Assignment
 		* **Description**: a brief overview of what the assignment covers
 		* **Instructions**: step-by-step instructions for students
 		* **Due Date**: the deadline for submissions
-		* **Attachment** *(sERP v2.0 and later)*: an optional file to accompany the assignment (e.g. a worksheet or reading)
+		* **Attachment** *(sERP v2)*: an optional file to accompany the assignment (e.g. a worksheet or reading)
 
 3. Click **Add Assignment** to save and publish
 
@@ -731,7 +731,7 @@ Grading Scales
 
 .. note::
 
-   The following grading scales are available in **sERP v2.0** and later in addition to the existing BECE, WASSCE, and Primary scales.
+   The following grading scales are available in **sERP v2** in addition to the existing BECE, WASSCE, and Primary scales.
 
 sERP supports multiple grading frameworks. How a scale is assigned to a class depends on the scale:
 

@@ -293,7 +293,7 @@ Biometric Attendance
 
 .. note::
 
-   This feature is available in **sERP v2.1** and later.
+   This feature is available in **sERP v2**.
 
 In addition to manual entry above, student attendance can be captured automatically from a fingerprint, facial recognition, or card-based biometric device. See :doc:`/manage/biometric` for details on device setup, mapping, and settings.
 
@@ -372,7 +372,7 @@ Modifying Campus Data
 
 	.. note::
 
-		The following fields are available in **sERP v2.0** and later.
+		The following fields are available in **sERP v2**.
 
 	* **Campus Emblem**: works the same way as "Headmaster's Signature" above, but for the campus's own logo/emblem. This is used in place of the school's main emblem on bills, reports, and receipts generated for students at this campus. Leave empty to use the school's main emblem instead.
 	* **Student ID Prefix**: the prefix used when auto-generating student IDs for students admitted to this campus (see :ref:`Configure Student ID Prefix <setup_student_prefix>`). Every campus should have its own prefix set.

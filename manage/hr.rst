@@ -54,7 +54,7 @@ To register a new staff member in sERP:
 
 	.. note::
 
-		In **sERP v2.0** and later, for schools with more than one campus, a **Campus** field also appears — select which campus this staff member belongs to.
+		In **sERP v2**, for schools with more than one campus, a **Campus** field also appears — select which campus this staff member belongs to.
 
 3. Click **Add Staff** to save
 
@@ -72,7 +72,7 @@ Navigate to **HR > Staff List** to view all registered staff members. The list s
 
 .. note::
 
-	In **sERP v2.0** and later, a campus-restricted user only sees staff belonging to their own campus here. A Multi-Campus Administrator sees every campus's staff.
+	In **sERP v2**, a campus-restricted user only sees staff belonging to their own campus here. A Multi-Campus Administrator sees every campus's staff.
 
 Click a staff member's name or the info icon (|info_icon|) to view their full profile, including personal details, employment details, payroll history, and uploaded documents.
 
@@ -132,7 +132,7 @@ Salary Additions
 
 .. note::
 
-   This feature is available in **sERP v2.0** and later.
+   This feature is available in **sERP v2**.
 
 Custom allowances (e.g. transport, housing) can be added to staff gross pay, applied to one or more staff members at once.
 
@@ -223,7 +223,7 @@ Staff Attendance
 
 .. note::
 
-   This feature is available in **sERP v2.0** and later.
+   This feature is available in **sERP v2**.
 
 Staff Attendance lets you record daily attendance for every staff member. Access it from **HR > Staff Attendance**.
 
@@ -244,6 +244,6 @@ Biometric Attendance
 
 .. note::
 
-   This feature is available in **sERP v2.1** and later.
+   This feature is available in **sERP v2**.
 
 In addition to manual entry, staff (and student) attendance can be captured automatically from a fingerprint, facial recognition, or card-based biometric device. See :doc:`/manage/biometric` for details on device setup, mapping, and settings.

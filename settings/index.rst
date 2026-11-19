@@ -57,7 +57,7 @@ Student ID Prefix
 
 .. note::
 
-	**sERP v2.0** and later replaces this school-wide prefix with a separate prefix per campus, configured from :ref:`Modifying Campus Data <students_edit_campus>` instead — there is no general-settings "Student ID Prefix" page in v2.0. The general settings page instead shows a "Correspondence Reference Prefix", used only for numbering :ref:`correspondence <academic_correspondence>` letters, not student IDs.
+	**sERP v2** replaces this school-wide prefix with a separate prefix per campus, configured from :ref:`Modifying Campus Data <students_edit_campus>` instead — there is no general-settings "Student ID Prefix" page in v2. The general settings page instead shows a "Correspondence Reference Prefix", used only for numbering :ref:`correspondence <academic_correspondence>` letters, not student IDs.
 
 
 .. _settings_staff_prefix:
@@ -250,7 +250,7 @@ sERP ships with three built-in grading scales — ``bece``, ``wassce``, and ``pr
 
 .. note::
 
-	In **sERP v2.0** and later, this same interface also manages the ``cambridge``, ``preschool``, and ``montessori`` scales referenced in :ref:`academic_grading_scales`.
+	In **sERP v2**, this same interface also manages the ``cambridge``, ``preschool``, and ``montessori`` scales referenced in :ref:`academic_grading_scales`.
 
 The custom grading section can be accessed from the Academic Settings page by clicking on the wrench (|wrench_icon|) icon next to **Custom Grading Scales**.
 
@@ -300,7 +300,7 @@ Learning Skills Items
 
 .. note::
 
-	This section applies to **sERP v2.0** and later only.
+	This section applies to **sERP v2** only.
 
 These items make up the Learning Skills and Work Habits section of the :ref:`academic_ls_report`, grouped by category (e.g. Responsibility, Independent Work). There is only one set of Learning Skills items — it applies to every class using the Cambridge grading system, unlike Preschool Items below.
 
@@ -323,7 +323,7 @@ Preschool Items
 
 .. note::
 
-	This section applies to **sERP v2.0** and later only.
+	This section applies to **sERP v2** only.
 
 These items make up the Achievement Area Assessment section of the :ref:`academic_preschool_report`. Unlike Learning Skills Items, each **Preschool Level** (e.g. N1, N2, K1 — schools define their own levels) has its own independent item set, since competency expectations differ by level.
 
@@ -571,7 +571,7 @@ Online Payment Gateway
 
 .. note::
 
-	This section applies to **sERP v2.0** and later only — v1.11 has no online payment gateway settings.
+	This section applies to **sERP v2** only — v1.11 has no online payment gateway settings.
 
 Configures the credentials sERP uses to process :ref:`online payments <finance_online_payments>` via either `Paystack <https://paystack.com>`_ or `Flutterwave <https://flutterwave.com>`_. Accessible from the Finance Settings page by clicking on "Online Payment Gateway".
 
@@ -595,7 +595,7 @@ Email Receipts
 
 .. note::
 
-	This section applies to **sERP v2.0** and later only.
+	This section applies to **sERP v2** only.
 
 When enabled, sERP automatically emails parents a PDF copy of the receipt to the student's registered guardian email address whenever a fee payment is recorded, alongside the existing SMS confirmation.
 
@@ -651,7 +651,7 @@ Dashboard Widgets
 
 .. note::
 
-	This section applies to **sERP v2.0** and later only.
+	This section applies to **sERP v2** only.
 
 1. From the :ref:`welcome menu <setup_layout>`, click on "Settings"
 2. Click on "Dashboard Widgets"

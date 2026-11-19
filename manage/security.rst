@@ -30,9 +30,9 @@ Which Accounts Are Exempt
 A small number of top-level accounts always log in with username and password only, and are never prompted for an OTP:
 
 * In **sERP v1.11**, this is the **Administrator/Director** role, plus the vendor support account.
-* In **sERP v2.0**, this is the school's own super-admin account (the built-in ``admin`` login), plus the vendor support account.
+* In **sERP v2**, this is the school's own super-admin account (the built-in ``admin`` login), plus the vendor support account.
 
-Every other account — including other Admin/HR Account Manager roles below Administrator/Director in v1.11, and campus administrators in v2.0 — is required to complete MFA.
+Every other account — including other Admin/HR Account Manager roles below Administrator/Director in v1.11, and campus administrators in v2 — is required to complete MFA.
 
 Configuring a Mobile Number for MFA
 =====================================
@@ -121,7 +121,7 @@ What Is Encrypted
 
 .. note::
 
-	This feature is available in **sERP v1.11 and v2.0**.
+	This feature is available in **sERP v1.11 and v2**.
 
 Password Storage
 =================
