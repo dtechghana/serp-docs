@@ -14,12 +14,14 @@ Features
 
 * Student information — bio data, class/attendance information, health records, disciplinary records, and academic reports
 * HR — staff records management and tax/regulatory compliance (PAYE, SSNIT, Trustee)
-* Finance — billing, payments/collections, debtors, credits, refunds, write-offs, statement of accounts, online card payments (`Paystack <https://paystack.com>`_ in v2.0 and later, Emergent Payments in earlier versions), USSD mobile money, banking and expenditure management
-* Academic Management — assignments, exam scheduling, curriculum planning, lesson plans, progress reports, and specialized Cambridge Lower Secondary / Preschool report types (v2.0 and later)
+* Finance — billing, payments/collections, debtors, credits, refunds, write-offs, statement of accounts, online card payments (`Paystack <https://paystack.com>`_ in v2, Emergent Payments in earlier versions), USSD mobile money, banking and expenditure management
+* Academic Management — assignments, exam scheduling, curriculum planning, lesson plans, progress reports, and specialized Cambridge Lower Secondary / Preschool report types (v2)
 * Messaging — bulk and individual SMS, in-app two-way messaging between staff, students, and parents
 * Communication — parent-teacher conferences, feedback, and class/subject discussion forums
 * Teacher Portal — dedicated interface for teaching staff to manage assignments, notes, lesson plans, and attendance
 * PoS — store sales and inventory management
+* Transport — fleet and driver management, routes and student allocation, manual and RFID/NFC boarding check-in, live GPS tracking, and transport fee billing (v2)
+* Mobile App — a native app for parents and students on Android and iOS, with push notifications (v2)
 * Analytics & Reporting — detailed finance, academic, teacher performance, disciplinary, and attendance reporting
 * Security — multi-factor authentication (MFA) at login, automated database backups, and encryption of sensitive personal data at rest
 
@@ -61,8 +63,10 @@ Documentation Reference
    /manage/communication
    /manage/finance
    /manage/hr
+   /manage/mobile-app
    /manage/reports
    /manage/security
    /manage/sms
    /manage/students
    /manage/teachers
+   /manage/transport

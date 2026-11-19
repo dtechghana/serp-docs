@@ -14,9 +14,11 @@ This section of the guide covers the core modules and features available in sERP
 * :doc:`/manage/library` — Book catalogue, categories, issue and return tracking
 * :doc:`/manage/sms` — Bulk SMS, bill reminders, payment notifications, and attendance alerts
 * :doc:`/manage/canteen` — Canteen payment recording and store/inventory management
+* :doc:`/manage/transport` — Fleet and driver management, routes and student allocation, boarding check-in (manual and RFID/NFC), live GPS tracking, and transport fee billing
 * :doc:`/manage/reports` — Attendance, finance, enrollment, and staff reports
 * :doc:`/manage/teachers` — Teacher portal: assignments, notes, lesson plans, and attendance
 * :doc:`/manage/parentportal` — Parent portal: wards overview, fees, attendance, assignments, and communications
 * :doc:`/manage/studentportal` — Student portal: fees, attendance, assignments, notes, timetable, and communications
+* :doc:`/manage/mobile-app` — The sERP mobile app for parents and students
 * :doc:`/manage/communication` — In-app messaging, parent-teacher conferences, feedback, and discussion forums
 * :doc:`/manage/security` — Multi-factor authentication, automated backups, and encryption of sensitive data at rest

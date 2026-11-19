@@ -7,7 +7,7 @@ The Student Portal provides students with a dedicated interface to view their ac
 
 	Access to the Student Portal requires a **Student** user account. See :ref:`users_add_user` for instructions on creating student accounts.
 
-The Student Portal is accessed at ``/studentportal`` on your sERP installation.
+The Student Portal is accessed at ``/studentportal`` on your sERP installation, or via the :doc:`sERP mobile app </manage/mobile-app>`.
 
 .. |edit_icon| image:: ../images/pencil.png
 

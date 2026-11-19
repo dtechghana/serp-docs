@@ -7,7 +7,7 @@ The Parent Portal provides parents and guardians with a dedicated interface to m
 
 	Access to the Parent Portal requires a **Guardian** user account. See :ref:`users_add_user` for instructions on creating parent/guardian accounts and linking them to students.
 
-The Parent Portal is accessed at ``/parentportal`` on your sERP installation.
+The Parent Portal is accessed at ``/parentportal`` on your sERP installation, or via the :doc:`sERP mobile app </manage/mobile-app>`.
 
 .. |edit_icon| image:: ../images/pencil.png
 
