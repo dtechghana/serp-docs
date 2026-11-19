@@ -133,7 +133,7 @@ Navigate to **Transport > Student NFC Cards** to link a physical card's UID to a
 1. Enter the **Student ID** and the card's **Card UID**.
 2. Click **Assign Card**.
 
-A student has one active card at a time — assigning a new card automatically revokes their previous one. A card UID can be obtained from the card itself (many are printed or can be read with any NFC-capable phone) before it's issued to the student.
+A student has one active card at a time — assigning a new card automatically revokes their previous one. Click into the **Card UID** field and tap the card against a USB NFC reader in keyboard-wedge mode to fill it in automatically (the reader types the UID directly, no driver needed), or type the UID in by hand if one isn't available.
 
 Live Map
 ===========
